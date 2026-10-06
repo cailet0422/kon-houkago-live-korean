@@ -10,10 +10,13 @@
 [![Release](https://img.shields.io/github/v/release/cailet0422/kon-houkago-live-korean?style=flat-square)](https://github.com/cailet0422/kon-houkago-live-korean/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-PSP%20%7C%20PS%20Vita%20%7C%20PPSSPP-ff69b4?style=flat-square)
+[![Star on GitHub](https://img.shields.io/github/stars/cailet0422/kon-houkago-live-korean?style=social&label=Star)](https://github.com/cailet0422/kon-houkago-live-korean)
 
 **🌸 Download page: https://cailet0422.github.io/kon-houkago-live-korean/**
 
-<img src="docs/images/loading.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
+<img src="docs/images/title.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
+
+⭐ If you like this patch, please press **Star** at the top right of this page!
 
 </div>
 
@@ -59,6 +62,8 @@ All in-game text, menus, tutorials, the title logo and most text textures have b
 | Club room conversation | Tutorial |
 | <img src="docs/images/song_select.png" width="420"> | <img src="docs/images/play_info.png" width="420"> |
 | Song select | Play information |
+| <img src="docs/images/title_menu.png" width="420"> | <img src="docs/images/loading.png" width="420"> |
+| Title menu | Loading screen |
 
 ## What is translated
 

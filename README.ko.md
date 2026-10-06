@@ -10,10 +10,13 @@
 [![Release](https://img.shields.io/github/v/release/cailet0422/kon-houkago-live-korean?style=flat-square&label=최신%20버전)](https://github.com/cailet0422/kon-houkago-live-korean/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 ![Platform](https://img.shields.io/badge/지원-PSP%20%7C%20PS%20Vita%20%7C%20PPSSPP-ff69b4?style=flat-square)
+[![Star on GitHub](https://img.shields.io/github/stars/cailet0422/kon-houkago-live-korean?style=social&label=Star)](https://github.com/cailet0422/kon-houkago-live-korean)
 
 **🌸 다운로드 페이지: https://cailet0422.github.io/kon-houkago-live-korean/**
 
-<img src="docs/images/loading.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
+<img src="docs/images/title.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
+
+⭐ 패치가 마음에 드셨다면 이 페이지 오른쪽 위의 **Star**를 눌러 주세요!
 
 </div>
 
@@ -59,6 +62,8 @@
 | 부실 대화 | 튜토리얼 |
 | <img src="docs/images/song_select.png" width="420"> | <img src="docs/images/play_info.png" width="420"> |
 | 곡 선택 | 플레이 정보 |
+| <img src="docs/images/title_menu.png" width="420"> | <img src="docs/images/loading.png" width="420"> |
+| 타이틀 메뉴 | 로딩 화면 |
 
 ## 번역 범위
 

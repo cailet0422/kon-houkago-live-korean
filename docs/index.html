@@ -7,7 +7,7 @@
 <meta name="description" content="K-On! Houkago Live!! (PSP, ULJM05709) Korean translation patch — 케이온! 방과후 라이브!! 한국어 패치 다운로드">
 <meta property="og:title" content="케이온! 방과후 라이브!! 한국어 패치">
 <meta property="og:description" content="K-On! Houkago Live!! (PSP) Korean translation patch · Windows / Android / xdelta">
-<meta property="og:image" content="https://cailet0422.github.io/kon-houkago-live-korean/images/clubroom.png">
+<meta property="og:image" content="https://cailet0422.github.io/kon-houkago-live-korean/images/title.png">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#ff7eb0">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff7eb0'/%3E%3Cpath d='M26 44a6 6 0 1 1-4-5.6V16l20-4v24a6 6 0 1 1-4-5.6V19l-12 2.4z' fill='%23fff'/%3E%3C/svg%3E">
@@ -60,6 +60,17 @@ img{max-width:100%;display:block}
 .lang button{all:unset;cursor:pointer;font-family:var(--head);font-weight:700;font-size:14px;padding:4px 12px;border-radius:999px;color:var(--ink-soft)}
 .lang button[aria-pressed=true]{background:var(--pink);color:#fff}
 .lang button:focus-visible{outline:3px solid var(--sky)}
+
+.star-pill{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-family:var(--head);font-weight:700;font-size:14px;color:var(--ink);background:var(--lemon);border:3px solid var(--ink);border-radius:999px;padding:3px 4px 3px 11px;box-shadow:0 3px 0 var(--ink);white-space:nowrap;transition:transform .12s}
+.star-pill svg{width:16px;height:16px;color:#fff;stroke:var(--ink);stroke-width:1.6}
+.star-pill .cnt{background:#fff;border-radius:999px;padding:0 9px;min-width:28px;text-align:center}
+.star-pill:hover{transform:translateY(-1px);box-shadow:0 4px 0 var(--ink)}
+.btn.star{background:var(--lemon);color:var(--ink)}
+.btn.star svg{color:#fff;stroke:var(--ink);stroke-width:1.6}
+.btn.star .cnt{font-size:14px;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:0 9px}
+.star-cta{display:inline-flex;align-items:center;gap:8px;margin-top:10px;color:#fff;font-family:var(--head);font-weight:700;text-decoration:none;background:rgba(255,255,255,.1);border:2px solid #ffc2d9;border-radius:999px;padding:6px 16px}
+.star-cta svg{width:18px;height:18px;color:var(--lemon)}
+.star-cta:hover{background:rgba(255,255,255,.2)}
 
 /* ---------- hero ---------- */
 .hero{position:relative;padding:56px 0 80px}
@@ -189,6 +200,9 @@ section{padding:64px 0}
 .polaroid{margin:0;background:#fff;border:3px solid var(--ink);border-radius:8px;padding:10px 10px 6px;box-shadow:0 6px 0 var(--ink);transform:rotate(var(--rot));transition:transform .2s}
 .polaroid:hover{transform:rotate(0) scale(1.03);z-index:2;position:relative}
 .polaroid img{border:2px solid var(--ink);border-radius:3px;aspect-ratio:480/272;object-fit:cover;width:100%}
+.polaroid.feature{grid-column:span 2;grid-row:span 2;display:flex;flex-direction:column}
+.polaroid.feature figcaption{font-size:30px;flex:1;display:flex;flex-direction:column;justify-content:center;line-height:1.2}
+.polaroid.feature figcaption small{font-family:var(--body);font-size:15px;color:var(--ink-soft);margin-top:4px}
 .polaroid figcaption{font-family:var(--hand);font-size:22px;text-align:center;margin-top:4px}
 
 /* translated list */
@@ -210,6 +224,7 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
   .hero .wrap{grid-template-columns:1fr}
   .psp-zone{margin-top:20px}
   .tapes,.steps,.gallery{grid-template-columns:1fr}
+  .polaroid.feature{grid-column:auto;grid-row:auto}
   .two{grid-template-columns:1fr}
   .nav{display:none}
   .lang{margin-left:auto}
@@ -220,6 +235,7 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
   .hash{grid-template-columns:1fr auto}
   .hash dt{grid-column:1 / -1;margin-bottom:-6px}
   .brand .t{display:none}
+  .star-pill span:not(.cnt){display:none}
   .psp{border-radius:80px/70px}
 }
 @media (prefers-reduced-motion:reduce){
@@ -238,6 +254,7 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
       <a href="#screens"><span class="ko">스크린샷</span><span class="en">Screens</span></a>
       <a href="https://github.com/cailet0422/kon-houkago-live-korean">GitHub</a>
     </nav>
+    <a class="star-pill" href="https://github.com/cailet0422/kon-houkago-live-korean" title="Star on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m12 2 2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z"/></svg><span>Star</span><span class="cnt" data-stars>0</span></a>
     <div class="lang" role="group" aria-label="Language">
       <button type="button" data-lang="ko" aria-pressed="true">한국어</button>
       <button type="button" data-lang="en" aria-pressed="false">EN</button>
@@ -271,6 +288,7 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
       <div class="cta">
         <a class="btn" href="#download"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg><span class="ko">다운로드</span><span class="en">Download</span></a>
         <a class="btn ghost" href="#howto"><span class="ko">설치 방법 보기</span><span class="en">How to install</span></a>
+        <a class="btn star" href="https://github.com/cailet0422/kon-houkago-live-korean"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m12 2 2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z"/></svg><span class="ko">별 주기</span><span class="en">Star</span><span class="cnt" data-stars>0</span></a>
       </div>
       <div class="meta">
         <span><span class="ko">버전</span><span class="en">Version</span> <b id="ver">v1.0.0</b></span>
@@ -283,11 +301,13 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
       <div class="psp" aria-label="Screenshots">
         <div class="dpad" aria-hidden="true"></div>
         <div class="screen" id="screen">
-          <img class="on" src="images/loading.png" alt="Loading screen with the Korean K-On! logo">
+          <img class="on" src="images/title.png" alt="Title screen with the Korean K-On! logo">
+          <img src="images/title_menu.png" alt="Title menu in Korean" loading="lazy">
           <img src="images/clubroom.png" alt="Club room menu in Korean" loading="lazy">
           <img src="images/dialogue.png" alt="Korean dialogue" loading="lazy">
           <img src="images/song_select.png" alt="Song select" loading="lazy">
           <img src="images/play_info.png" alt="Play information" loading="lazy">
+          <img src="images/loading.png" alt="Loading screen" loading="lazy">
         </div>
         <div class="face" aria-hidden="true"><i>△</i><i>○</i><i>✕</i><i>□</i></div>
         <div class="sl" aria-hidden="true"><b></b><b></b></div>
@@ -496,12 +516,12 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
   <div class="wrap">
     <h2 class="sec-title"><span class="num" style="--c:var(--lemon-deep)">★</span><span class="ko">스크린샷</span><span class="en">Screenshots</span></h2>
     <div class="gallery">
+      <figure class="polaroid feature" style="--rot:-1deg"><img src="images/title.png" alt="" loading="lazy"><figcaption><span class="ko">타이틀 화면</span><span class="en">Title screen</span><small><span class="ko">로고도, 메뉴도 한국어로!</span><span class="en">Korean logo, Korean menus!</span></small></figcaption></figure>
+      <figure class="polaroid" style="--rot:2deg"><img src="images/title_menu.png" alt="" loading="lazy"><figcaption><span class="ko">타이틀 메뉴</span><span class="en">Title menu</span></figcaption></figure>
       <figure class="polaroid" style="--rot:-2deg"><img src="images/clubroom.png" alt="" loading="lazy"><figcaption><span class="ko">부실 메뉴</span><span class="en">Club room</span></figcaption></figure>
       <figure class="polaroid" style="--rot:1.5deg"><img src="images/dialogue.png" alt="" loading="lazy"><figcaption><span class="ko">부실 대화</span><span class="en">Conversation</span></figcaption></figure>
       <figure class="polaroid" style="--rot:-1deg"><img src="images/tutorial.png" alt="" loading="lazy"><figcaption><span class="ko">튜토리얼</span><span class="en">Tutorial</span></figcaption></figure>
       <figure class="polaroid" style="--rot:1deg"><img src="images/song_select.png" alt="" loading="lazy"><figcaption><span class="ko">곡 선택</span><span class="en">Song select</span></figcaption></figure>
-      <figure class="polaroid" style="--rot:-1.5deg"><img src="images/play_info.png" alt="" loading="lazy"><figcaption><span class="ko">플레이 정보</span><span class="en">Play info</span></figcaption></figure>
-      <figure class="polaroid" style="--rot:2deg"><img src="images/loading.png" alt="" loading="lazy"><figcaption><span class="ko">로딩 화면</span><span class="en">Loading</span></figcaption></figure>
     </div>
   </div>
 </section>
@@ -553,7 +573,10 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
       <p><span class="ko">비공식 팬 번역입니다. 세가, 교토 애니메이션 등 <i>케이온!</i>의 권리자와 관계가 없으며, 게임 데이터는 배포하지 않습니다. 원본 게임을 소유해 주세요.</span><span class="en">Unofficial fan translation, not affiliated with Sega, Kyoto Animation or any rights holder of <i>K-On!</i>. No game data is distributed — please own the original game.</span></p>
       <p><span class="ko">도구·패처·번역은 MIT 라이선스. 실기 테스트 결과나 오역 제보는 <a href="https://github.com/cailet0422/kon-houkago-live-korean/issues">Issues</a>로 알려 주세요!</span><span class="en">Tools, patchers and translation: MIT License. Real-hardware reports and typo fixes are welcome in <a href="https://github.com/cailet0422/kon-houkago-live-korean/issues">Issues</a>!</span></p>
     </div>
-    <p><a href="https://github.com/cailet0422/kon-houkago-live-korean">github.com/cailet0422/kon-houkago-live-korean</a></p>
+    <div>
+      <p><a href="https://github.com/cailet0422/kon-houkago-live-korean">github.com/cailet0422/kon-houkago-live-korean</a></p>
+      <a class="star-cta" href="https://github.com/cailet0422/kon-houkago-live-korean"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m12 2 2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z"/></svg><span class="ko">마음에 들었다면 GitHub에서 ★를 눌러 주세요!</span><span class="en">Enjoyed it? Give us a ★ on GitHub!</span></a>
+    </div>
   </div>
 </footer>
 
@@ -612,6 +635,14 @@ footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
       if(navigator.clipboard) navigator.clipboard.writeText(b.dataset.copy).then(done,function(){});
     });
   });
+
+  // ---- live star count ----
+  fetch('https://api.github.com/repos/cailet0422/kon-houkago-live-korean')
+    .then(function(r){return r.ok ? r.json() : null;})
+    .then(function(repo){
+      if(!repo) return;
+      document.querySelectorAll('[data-stars]').forEach(function(e){e.textContent=repo.stargazers_count;});
+    }).catch(function(){});
 
   // ---- live release info (falls back to the static values) ----
   fetch('https://api.github.com/repos/cailet0422/kon-houkago-live-korean/releases/latest')
