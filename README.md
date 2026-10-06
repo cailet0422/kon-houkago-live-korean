@@ -8,6 +8,7 @@
 **케이온! 방과후 라이브!! 한국어 패치** · PSP · ULJM05709
 
 [![Release](https://img.shields.io/github/v/release/cailet0422/kon-houkago-live-korean?style=flat-square)](https://github.com/cailet0422/kon-houkago-live-korean/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-PSP%20%7C%20PS%20Vita%20%7C%20PPSSPP-ff69b4?style=flat-square)
 
 <img src="docs/images/loading.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
@@ -43,6 +44,7 @@ All in-game text, menus, tutorials, the title logo and most text textures have b
 - [Important: keep “Install” OFF](#important-keep-install-off)
 - [Troubleshooting / FAQ](#troubleshooting--faq)
 - [Repository layout](#repository-layout)
+- [License](#license)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -310,6 +312,11 @@ building the patch yourself requires the original game, and files that contain g
 | `patcher/` | Windows GUI patcher (C#, .NET Framework 4) and Android patcher (Java) |
 
 Main entry points: `tools/build.py` (builds the Korean ISO) and `tools/release.py` (makes the xdelta, EXE and APK).
+
+## License
+
+The tools, patcher source code and Korean translation in this repository are released under the [MIT License](LICENSE).
+*K-On!* and *K-On! Houkago Live!!* themselves, and all original game content, belong to their respective rights holders and are **not** covered by this license.
 
 ## Disclaimer
 

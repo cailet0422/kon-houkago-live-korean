@@ -8,6 +8,7 @@
 **K-On! Houkago Live!! Korean Translation Patch** · PSP · ULJM05709
 
 [![Release](https://img.shields.io/github/v/release/cailet0422/kon-houkago-live-korean?style=flat-square&label=최신%20버전)](https://github.com/cailet0422/kon-houkago-live-korean/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 ![Platform](https://img.shields.io/badge/지원-PSP%20%7C%20PS%20Vita%20%7C%20PPSSPP-ff69b4?style=flat-square)
 
 <img src="docs/images/loading.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
@@ -43,6 +44,7 @@
 - [중요: 「인스톨」은 반드시 OFF](#중요-인스톨은-반드시-off)
 - [문제 해결 / 자주 묻는 질문](#문제-해결--자주-묻는-질문)
 - [저장소 구성](#저장소-구성)
+- [라이선스](#라이선스)
 - [면책 조항](#면책-조항)
 
 ---
@@ -307,6 +309,11 @@ PSP 실기와 똑같이 동작합니다.
 | `patcher/` | Windows GUI 패처 (C#, .NET Framework 4)와 안드로이드 패처 (Java) |
 
 주요 진입점: `tools/build.py` (한국어 ISO 빌드), `tools/release.py` (xdelta·EXE·APK 생성)
+
+## 라이선스
+
+이 저장소의 도구, 패처 소스 코드, 한국어 번역은 [MIT 라이선스](LICENSE)로 공개합니다.
+*케이온!* 및 *케이온! 방과후 라이브!!* 자체와 원본 게임의 모든 내용은 각 권리자에게 있으며 이 라이선스의 대상이 **아닙니다.**
 
 ## 면책 조항
 
