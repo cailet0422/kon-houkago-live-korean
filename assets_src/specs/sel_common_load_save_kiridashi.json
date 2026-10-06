@@ -1,0 +1,85 @@
+{
+ "src": "work/sprites/sprite__sel_common_load_save_kiridashi.png",
+ "out": "assets_ko/sprite/sel_common_load_save_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    4,
+    3,
+    104,
+    21
+   ],
+   "text": "플레이 데이터를",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "#000000"
+  },
+  {
+   "box": [
+    2,
+    23,
+    49,
+    41
+   ],
+   "text": "세이브",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "#000000"
+  },
+  {
+   "box": [
+    50,
+    24,
+    102,
+    40
+   ],
+   "text": "체크",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "#000000"
+  },
+  {
+   "box": [
+    2,
+    43,
+    49,
+    61
+   ],
+   "text": "로드",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "#000000"
+  },
+  {
+   "box": [
+    50,
+    44,
+    102,
+    60
+   ],
+   "text": "삭제",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "#000000"
+  },
+  {
+   "box": [
+    106,
+    1,
+    124,
+    63
+   ],
+   "text": "하는 중입니다",
+   "rotate": -90,
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "#000000"
+  }
+ ]
+}

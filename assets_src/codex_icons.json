@@ -1,0 +1,124 @@
+[
+ {
+  "name": "sel_tea_item_icon_acc_1_kiridashi",
+  "texts": [
+   [
+    "抽選券 (pink lottery ticket icon)",
+    "추첨권"
+   ],
+   [
+    "超 人生 すごろく (board game icon)",
+    "초 인생 주사위놀이"
+   ],
+   [
+    "一匹のサル (brown book icon)",
+    "원숭이 한 마리"
+   ],
+   [
+    "ふじつぼ (dark horror book icon)",
+    "따개비"
+   ],
+   [
+    "学祭 澪 (秘) (white photo envelope icon)",
+    "학원제 미오 (비)"
+   ],
+   [
+    "準備室 (black door plate icon)",
+    "준비실"
+   ]
+  ],
+  "src": "work/sprites/sprite__sel_tea_item_icon_acc_1_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_icon_acc_1_kiridashi.png",
+  "style": "This is an item-icon atlas (a grid of small square icons). Only change the lettering listed; every other icon and pixel must stay exactly as it is. Keep the icon layout/grid unchanged.",
+  "scale": 2,
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_item_icon_acc_2_kiridashi",
+  "texts": [
+   [
+    "おもいで (orange lettering on the 7 green album icons)",
+    "추억"
+   ],
+   [
+    "秘伝 (gold lettering on the black book icon)",
+    "비전"
+   ]
+  ],
+  "src": "work/sprites/sprite__sel_tea_item_icon_acc_2_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_icon_acc_2_kiridashi.png",
+  "style": "This is an item-icon atlas (a grid of small square icons). Only change the lettering listed; every other icon and pixel must stay exactly as it is. Keep the icon layout/grid unchanged.",
+  "scale": 2,
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_item_icon_1_kiridashi",
+  "texts": [
+   [
+    "5分間 (green lettering on the 10 magazine icons, keep the red numbers 1-10)",
+    "5분간"
+   ]
+  ],
+  "src": "work/sprites/sprite__sel_tea_item_icon_1_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_icon_1_kiridashi.png",
+  "style": "This is an item-icon atlas (a grid of small square icons). Only change the lettering listed; every other icon and pixel must stay exactly as it is. Keep the icon layout/grid unchanged.",
+  "scale": 2,
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_item_icon_interior_kiridashi",
+  "texts": [
+   [
+    "桜高祭 (vertical, purple banner icon)",
+    "학원제 (vertical)"
+   ],
+   [
+    "音楽室独り占め!! / バンドやりませんか (white poster icon)",
+    "음악실 독차지!! / 밴드 하지 않을래?"
+   ],
+   [
+    "澪ちゃん ファンクラブ 会員募集中 (poster icon)",
+    "미오쨩 팬클럽 회원 모집 중"
+   ]
+  ],
+  "src": "work/sprites/sprite__sel_tea_item_icon_interior_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_icon_interior_kiridashi.png",
+  "style": "This is an item-icon atlas (a grid of small square icons). Only change the lettering listed; every other icon and pixel must stay exactly as it is. Keep the icon layout/grid unchanged.",
+  "scale": 2,
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_item_icon_kiridashi",
+  "texts": [
+   [
+    "秘伝 (gold lettering on the black book icon)",
+    "비전"
+   ]
+  ],
+  "src": "work/sprites/sprite__sel_item_icon_kiridashi.png",
+  "out": "assets_ko/sprite/sel_item_icon_kiridashi.png",
+  "style": "This is an item-icon atlas (a grid of small square icons). Only change the lettering listed; every other icon and pixel must stay exactly as it is. Keep the icon layout/grid unchanged.",
+  "scale": 2,
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 2
+  }
+ }
+]

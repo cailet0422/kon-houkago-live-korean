@@ -1,0 +1,107 @@
+[
+ {
+  "name": "cp_eff_sp_00_yu_kiridashi",
+  "src": "work/sprites/sprite__cp_eff_sp_00_yu_kiridashi.png",
+  "out": "assets_ko/sprite/cp_eff_sp_00_yu_kiridashi.png",
+  "texts": [
+   [
+    "(the big brush-written hiragana name, three variants)",
+    "유이"
+   ],
+   [
+    "(the small vertical name column on the right)",
+    "유이"
+   ]
+  ],
+  "style": "Each Japanese name is replaced by the Korean name '유이' written in the same rough white brush/marker lettering with dark grey outline and hatching. Keep the three large versions stacked in the same rows and the small version written vertically (one syllable under another) in the narrow right column.",
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 3
+  }
+ },
+ {
+  "name": "cp_eff_sp_00_mi_kiridashi",
+  "src": "work/sprites/sprite__cp_eff_sp_00_mi_kiridashi.png",
+  "out": "assets_ko/sprite/cp_eff_sp_00_mi_kiridashi.png",
+  "texts": [
+   [
+    "(the big brush-written hiragana name, three variants)",
+    "미오"
+   ],
+   [
+    "(the small vertical name column on the right)",
+    "미오"
+   ]
+  ],
+  "style": "Each Japanese name is replaced by the Korean name '미오' written in the same rough white brush/marker lettering with dark grey outline and hatching. Keep the three large versions stacked in the same rows and the small version written vertically (one syllable under another) in the narrow right column.",
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 3
+  }
+ },
+ {
+  "name": "cp_eff_sp_00_ri_kiridashi",
+  "src": "work/sprites/sprite__cp_eff_sp_00_ri_kiridashi.png",
+  "out": "assets_ko/sprite/cp_eff_sp_00_ri_kiridashi.png",
+  "texts": [
+   [
+    "(the big brush-written hiragana name, three variants)",
+    "리츠"
+   ],
+   [
+    "(the small vertical name column on the right)",
+    "리츠"
+   ]
+  ],
+  "style": "Each Japanese name is replaced by the Korean name '리츠' written in the same rough white brush/marker lettering with dark grey outline and hatching. Keep the three large versions stacked in the same rows and the small version written vertically (one syllable under another) in the narrow right column.",
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 3
+  }
+ },
+ {
+  "name": "cp_eff_sp_00_mu_kiridashi",
+  "src": "work/sprites/sprite__cp_eff_sp_00_mu_kiridashi.png",
+  "out": "assets_ko/sprite/cp_eff_sp_00_mu_kiridashi.png",
+  "texts": [
+   [
+    "(the big brush-written hiragana name, three variants)",
+    "츠무기"
+   ],
+   [
+    "(the small vertical name column on the right)",
+    "츠무기"
+   ]
+  ],
+  "style": "Each Japanese name is replaced by the Korean name '츠무기' written in the same rough white brush/marker lettering with dark grey outline and hatching. Keep the three large versions stacked in the same rows and the small version written vertically (one syllable under another) in the narrow right column.",
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 3
+  }
+ },
+ {
+  "name": "cp_eff_sp_00_az_kiridashi",
+  "src": "work/sprites/sprite__cp_eff_sp_00_az_kiridashi.png",
+  "out": "assets_ko/sprite/cp_eff_sp_00_az_kiridashi.png",
+  "texts": [
+   [
+    "(the big brush-written hiragana name, three variants)",
+    "아즈사"
+   ],
+   [
+    "(the small vertical name column on the right)",
+    "아즈사"
+   ]
+  ],
+  "style": "Each Japanese name is replaced by the Korean name '아즈사' written in the same rough white brush/marker lettering with dark grey outline and hatching. Keep the three large versions stacked in the same rows and the small version written vertically (one syllable under another) in the narrow right column.",
+  "bg": "#00ff00",
+  "merge": {
+   "thresh": 70,
+   "dilate": 3
+  }
+ }
+]

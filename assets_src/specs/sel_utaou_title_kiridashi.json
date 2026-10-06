@@ -1,0 +1,44 @@
+{
+ "src": "work/sprites/sprite__sel_utaou_title_kiridashi.png",
+ "out": "assets_ko/sprite/sel_utaou_title_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    26,
+    45,
+    53,
+    63
+   ],
+   "text": "재생",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#202020",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    92,
+    45,
+    117,
+    63
+   ],
+   "text": "뒤로",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#202020",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

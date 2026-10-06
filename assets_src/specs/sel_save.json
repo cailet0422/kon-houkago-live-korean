@@ -1,0 +1,132 @@
+{
+ "src": "work/sprites/sprite__sel_save.png",
+ "out": "assets_ko/sprite/sel_save.png",
+ "items": [
+  {
+   "box": [
+    3,
+    3,
+    250,
+    22
+   ],
+   "text": "새 데이터를 만들어 주세요",
+   "tracking": 3,
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    5,
+    76,
+    51,
+    96
+   ],
+   "text": "세이브!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30b0a0",
+    "#3070d0",
+    "#8050c0"
+   ],
+   "fill": null,
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ]
+   ]
+  },
+  {
+   "box": [
+    58,
+    164,
+    104,
+    183
+   ],
+   "text": "로드!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30b0a0",
+    "#8050c0"
+   ],
+   "fill": null,
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ]
+   ]
+  },
+  {
+   "box": [
+    3,
+    198,
+    54,
+    214
+   ],
+   "text": "로드",
+   "align": "r",
+   "tracking": 3,
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    2,
+    216,
+    55,
+    233
+   ],
+   "text": "세이브",
+   "align": "r",
+   "tracking": 2,
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    2,
+    236,
+    250,
+    254
+   ],
+   "text": "할 데이터를 선택해 주세요",
+   "align": "l",
+   "tracking": 3,
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  }
+ ]
+}

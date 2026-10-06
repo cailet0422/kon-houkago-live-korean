@@ -1,0 +1,58 @@
+{
+ "src": "work/sprites/sprite__sel_common_system_window.png",
+ "out": "assets_ko/sprite/sel_common_system_window.png",
+ "items": [
+  {
+   "box": [
+    178,
+    38,
+    214,
+    56
+   ],
+   "text": "다음",
+   "erase": "alpha",
+   "textcolors": [
+    "#ffffff",
+    "#101010",
+    "#303030"
+   ],
+   "tol": 90,
+   "align": "l",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    153,
+    98,
+    238,
+    117
+   ],
+   "text": "취소",
+   "erase": "alpha",
+   "textcolors": [
+    "#ffffff",
+    "#101010",
+    "#303030"
+   ],
+   "tol": 90,
+   "align": "l",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  }
+ ]
+}

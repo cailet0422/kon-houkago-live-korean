@@ -1,0 +1,367 @@
+{
+ "src": "work/sprites/sprite__sel_music_stage.png",
+ "out": "assets_ko/sprite/sel_music_stage.png",
+ "items": [
+  {
+   "box": [
+    44,
+    6,
+    78,
+    25
+   ],
+   "text": "부실",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    36,
+    30,
+    86,
+    49
+   ],
+   "text": "상점가",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    44,
+    54,
+    78,
+    73
+   ],
+   "text": "강당",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    36,
+    78,
+    86,
+    97
+   ],
+   "text": "정류장",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    35,
+    102,
+    86,
+    121
+   ],
+   "text": "교문 앞",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    15,
+    126,
+    107,
+    145
+   ],
+   "text": "라이브 하우스",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    28,
+    150,
+    93,
+    169
+   ],
+   "text": "무기 별장",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    13,
+    174,
+    109,
+    193
+   ],
+   "text": "해 질 녘 부실",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    17,
+    199,
+    103,
+    217
+   ],
+   "text": "록 클리프",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    120,
+    6,
+    233,
+    25
+   ],
+   "text": "화이트 스테이지",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    118,
+    30,
+    233,
+    49
+   ],
+   "text": "핑크 레인보우",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    119,
+    54,
+    233,
+    73
+   ],
+   "text": "롤링 스타",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    132,
+    78,
+    219,
+    97
+   ],
+   "text": "데이드림",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    125,
+    102,
+    227,
+    121
+   ],
+   "text": "AZUSA 세트",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    124,
+    126,
+    227,
+    145
+   ],
+   "text": "러블리 룸",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    119,
+    150,
+    232,
+    169
+   ],
+   "text": "컬러풀 박스",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    132,
+    174,
+    220,
+    193
+   ],
+   "text": "빅 드럼",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    119,
+    198,
+    233,
+    217
+   ],
+   "text": "캔디 라이트",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    158,
+    222,
+    193,
+    241
+   ],
+   "text": "해변",
+   "fill": "#f0e040",
+   "outline": [
+    [
+     "#302010",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

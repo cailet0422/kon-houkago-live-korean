@@ -1,0 +1,468 @@
+{
+ "src": "work/sprites/sprite__sel_album_sou_bgm.png",
+ "out": "assets_ko/sprite/sel_album_sou_bgm.png",
+ "items": [
+  {
+   "box": [
+    38,
+    34,
+    88,
+    55
+   ],
+   "text": "가벼운 농담",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    34,
+    62,
+    95,
+    83
+   ],
+   "text": "그날의 꿈",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    19,
+    90,
+    111,
+    111
+   ],
+   "text": "덜렁이 너를 위해",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    8,
+    117,
+    120,
+    139
+   ],
+   "text": "느긋한 사람의 오후",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    23,
+    145,
+    105,
+    166
+   ],
+   "text": "반짝반짝 블루",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    7,
+    174,
+    119,
+    195
+   ],
+   "text": "지각 직전 아침의 비장의 카드!",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    8,
+    201,
+    121,
+    222
+   ],
+   "text": "휘핑・휘핑・휘핑",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    132,
+    5,
+    245,
+    26
+   ],
+   "text": "건망증쟁이의 우울",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    141,
+    33,
+    235,
+    54
+   ],
+   "text": "물방울 시폰",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    136,
+    146,
+    241,
+    167
+   ],
+   "text": "커피에 설탕 3개",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    158,
+    174,
+    219,
+    194
+   ],
+   "text": "켄다마 군",
+   "fill": "#f03888",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "size": 13
+  },
+  {
+   "box": [
+    267,
+    32,
+    357,
+    54
+   ],
+   "text": "후와후와 타임",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#b8e8f8",
+    "#3a88c0"
+   ],
+   "outline": [
+    [
+     "#16284a",
+     1
+    ],
+    [
+     "#9fd0ff",
+     1
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    261,
+    61,
+    364,
+    82
+   ],
+   "text": "내 사랑은 호치키스",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#e0287a",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    262,
+    89,
+    364,
+    110
+   ],
+   "text": "붓펜 ~볼펜~",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#ffffff",
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    262,
+    119,
+    362,
+    137
+   ],
+   "text": "카레 다음 라이스",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#ffc030",
+    "#f07000"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    265,
+    147,
+    361,
+    166
+   ],
+   "text": "『Let's Go』",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#e81c1c",
+   "outline": [
+    [
+     "#fff8e0",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    261,
+    230,
+    363,
+    250
+   ],
+   "text": "기-타에게 푹 빠졌어",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#f8b0d0",
+    "#e05080"
+   ],
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ],
+    [
+     "#c0a0d0",
+     1
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    387,
+    90,
+    486,
+    111
+   ],
+   "text": "말괄량이 Way To Go",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#c8b8f8",
+    "#6858c0"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    385,
+    118,
+    488,
+    138
+   ],
+   "text": "나는 나의 길을 간다",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#f8f000",
+    "#20c040"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    386,
+    146,
+    487,
+    167
+   ],
+   "text": "Dear My Keys ~건반의 마법~",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#fff4f8",
+   "outline": [
+    [
+     "#e87898",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    386,
+    202,
+    488,
+    224
+   ],
+   "text": "Girly Storm 질주 Stick",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#fff040",
+    "#f09000"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    387,
+    230,
+    487,
+    251
+   ],
+   "text": "목표는 해피 100%↑↑↑",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#ffb040",
+    "#f06000"
+   ],
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ],
+    [
+     "#503010",
+     1
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

@@ -1,0 +1,467 @@
+{
+ "src": "work/sprites/sprite__sel_tushin_kiridashi.png",
+ "out": "assets_ko/sprite/sel_tushin_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    3,
+    3,
+    62,
+    21
+   ],
+   "text": "통신!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    72,
+    40,
+    137,
+    52
+   ],
+   "text": "잘 부탁해!",
+   "fill": "#f04898",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    72,
+    55,
+    137,
+    68
+   ],
+   "text": "힘낼게요",
+   "fill": "#f04898",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    72,
+    71,
+    137,
+    84
+   ],
+   "text": "힘내자~!",
+   "fill": "#f04898",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    72,
+    87,
+    137,
+    100
+   ],
+   "text": "잠깐만~",
+   "fill": "#f04898",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    72,
+    103,
+    137,
+    116
+   ],
+   "text": "빨리 하자~",
+   "fill": "#f04898",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    43,
+    223,
+    58
+   ],
+   "text": "밴드01",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    59,
+    223,
+    74
+   ],
+   "text": "밴드02",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    75,
+    223,
+    90
+   ],
+   "text": "밴드03",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    91,
+    223,
+    106
+   ],
+   "text": "밴드04",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    107,
+    223,
+    122
+   ],
+   "text": "밴드05",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    123,
+    223,
+    138
+   ],
+   "text": "밴드06",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    139,
+    223,
+    154
+   ],
+   "text": "밴드07",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    155,
+    223,
+    170
+   ],
+   "text": "밴드08",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    171,
+    223,
+    186
+   ],
+   "text": "밴드09",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    187,
+    223,
+    202
+   ],
+   "text": "밴드10",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    203,
+    223,
+    218
+   ],
+   "text": "밴드11",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    219,
+    223,
+    234
+   ],
+   "text": "밴드12",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    235,
+    223,
+    250
+   ],
+   "text": "밴드13",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    251,
+    223,
+    266
+   ],
+   "text": "밴드14",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    267,
+    223,
+    282
+   ],
+   "text": "밴드15",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    162,
+    283,
+    223,
+    298
+   ],
+   "text": "밴드16",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    237,
+    3,
+    506,
+    21
+   ],
+   "text": "리더로서 밴드 멤버를 모은다",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    257,
+    23,
+    486,
+    41
+   ],
+   "text": "멤버로서 참가할 밴드를 찾는다",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    371,
+    43,
+    395,
+    57
+   ],
+   "text": "1명",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    398,
+    43,
+    423,
+    57
+   ],
+   "text": "2명",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    426,
+    43,
+    451,
+    57
+   ],
+   "text": "3명",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    454,
+    43,
+    479,
+    57
+   ],
+   "text": "4명",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    483,
+    43,
+    507,
+    57
+   ],
+   "text": "5명",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    277,
+    259,
+    394,
+    301
+   ],
+   "text": "통신 중",
+   "auto": false,
+   "font": "round",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#1a1a2a",
+     3
+    ]
+   ],
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    2,
+    482,
+    259,
+    502
+   ],
+   "text": "밴드 멤버를 모집하고 있습니다",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

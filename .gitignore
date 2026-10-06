@@ -1,0 +1,35 @@
+# Whitelist: only tools, translations and docs are published. Game data stays local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/README.ko.md
+!/docs/
+!/tools/
+!/tables/
+!/text/
+!/assets_src/
+!/patcher/
+!/work/
+/work/*
+!/work/*.py
+
+# original-text dumps (game content)
+/text/*_source.json
+
+# build outputs / binaries
+__pycache__/
+*.pyc
+*.exe
+*.patch
+*.iso
+*.apk
+*.class
+
+# Android build + signing secrets
+/patcher/android/konko.keystore
+/patcher/android/keystore.properties
+/patcher/android/local.properties
+/patcher/android/.gradle/
+/patcher/android/build/
+/patcher/android/app/build/

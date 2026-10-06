@@ -1,0 +1,61 @@
+{
+ "src": "work/sprites/sprite__sel_album.png",
+ "out": "assets_ko/sprite/sel_album.png",
+ "items": [
+  {
+   "box": [
+    131,
+    146,
+    158,
+    163
+   ],
+   "text": "보기",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    131,
+    178,
+    159,
+    195
+   ],
+   "text": "재생",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    423,
+    22,
+    482,
+    41
+   ],
+   "text": "앨범!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  }
+ ]
+}

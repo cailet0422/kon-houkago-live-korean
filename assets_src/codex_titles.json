@@ -1,0 +1,178 @@
+[
+ {
+  "name": "cp_title_music_02",
+  "src": "work/sprites/sprite__cp_title_music_02.png",
+  "out": "assets_ko/sprite/cp_title_music_02.png",
+  "texts": [
+   [
+    "ふわふわ時間",
+    "후와후와 타임"
+   ]
+  ],
+  "style": "The small furigana 'タイム' above 時間 should be removed (the Korean title needs no ruby text).",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_03",
+  "src": "work/sprites/sprite__cp_title_music_03.png",
+  "out": "assets_ko/sprite/cp_title_music_03.png",
+  "texts": [
+   [
+    "わたしの恋はホッチキス",
+    "내 사랑은 호치키스"
+   ]
+  ],
+  "style": "Keep the pink lettering with white outline; do not touch the stapler, hearts or card border.",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_04",
+  "src": "work/sprites/sprite__cp_title_music_04.png",
+  "out": "assets_ko/sprite/cp_title_music_04.png",
+  "texts": [
+   [
+    "ふでペン ～ボールペン～",
+    "붓펜 ~볼펜~"
+   ]
+  ],
+  "style": "",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_05",
+  "src": "work/sprites/sprite__cp_title_music_05.png",
+  "out": "assets_ko/sprite/cp_title_music_05.png",
+  "texts": [
+   [
+    "カレーのちライス",
+    "카레 다음 라이스"
+   ]
+  ],
+  "style": "",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_06",
+  "src": "work/sprites/sprite__cp_title_music_06.png",
+  "out": "assets_ko/sprite/cp_title_music_06.png",
+  "texts": [
+   [
+    "『レッツゴー』",
+    "『Let's Go』"
+   ]
+  ],
+  "style": "",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_09",
+  "src": "work/sprites/sprite__cp_title_music_09.png",
+  "out": "assets_ko/sprite/cp_title_music_09.png",
+  "texts": [
+   [
+    "ギー太に首ったけ",
+    "기-타에게 푹 빠졌어"
+   ]
+  ],
+  "style": "Keep the 'YUI★HIRASAWA' English line as it is.",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_13",
+  "src": "work/sprites/sprite__cp_title_music_13.png",
+  "out": "assets_ko/sprite/cp_title_music_13.png",
+  "texts": [
+   [
+    "じゃじゃ馬",
+    "말괄량이"
+   ]
+  ],
+  "style": "Only the Japanese word じゃじゃ馬 changes; keep 'Way To Go' in English as it is.",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_14",
+  "src": "work/sprites/sprite__cp_title_music_14.png",
+  "out": "assets_ko/sprite/cp_title_music_14.png",
+  "texts": [
+   [
+    "私は私の道を行く",
+    "나는 나의 길을 간다"
+   ]
+  ],
+  "style": "",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_15",
+  "src": "work/sprites/sprite__cp_title_music_15.png",
+  "out": "assets_ko/sprite/cp_title_music_15.png",
+  "texts": [
+   [
+    "～鍵盤の魔法～",
+    "~건반의 마법~"
+   ]
+  ],
+  "style": "Only the small Japanese subtitle changes; keep 'Dear My Keys' as it is.",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_17",
+  "src": "work/sprites/sprite__cp_title_music_17.png",
+  "out": "assets_ko/sprite/cp_title_music_17.png",
+  "texts": [
+   [
+    "疾走",
+    "질주"
+   ]
+  ],
+  "style": "Only the kanji 疾走 changes to the Korean word 질주; keep 'Girly Storm' and 'Stick' as they are.",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "cp_title_music_18",
+  "src": "work/sprites/sprite__cp_title_music_18.png",
+  "out": "assets_ko/sprite/cp_title_music_18.png",
+  "texts": [
+   [
+    "目指せハッピー100%↑↑↑",
+    "목표는 해피 100%↑↑↑"
+   ]
+  ],
+  "style": "",
+  "merge": {
+   "thresh": 60,
+   "dilate": 2
+  }
+ }
+]

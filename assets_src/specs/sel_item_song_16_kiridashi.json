@@ -1,0 +1,25 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_16_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_16_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    3,
+    5,
+    270,
+    31
+   ],
+   "text": "Dear My Keys ~건반의 마법~",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#fff4f8",
+   "outline": [
+    [
+     "#e87898",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

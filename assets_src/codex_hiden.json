@@ -1,0 +1,50 @@
+[
+ {
+  "name": "hiden_acc2",
+  "src": "work/hiden/hiden_acc2_src.png",
+  "out": "work/hiden/hiden_acc2_ko.png",
+  "texts": [
+   [
+    "秘伝 (the two gold kanji written vertically on the black book cover)",
+    "비전 (two Hangul syllables 비 and 전, written vertically, one above the other)"
+   ]
+  ],
+  "style": "This is an upscaled tiny game icon of a black book with gold lettering and a gold music note. Replace ONLY the two gold kanji with the Korean 비 (top) and 전 (bottom), in the same gold colour, bold brush-like hand-lettered style, same size and slant as the kanji, following the book's perspective. Keep the music note, gold wavy border lines, book shape, shadows and everything else identical. Keep the flat magenta background exactly as it is.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "hiden_icon",
+  "src": "work/hiden/hiden_icon_src.png",
+  "out": "work/hiden/hiden_icon_ko.png",
+  "texts": [
+   [
+    "秘伝 (the two gold kanji written vertically on the black book cover)",
+    "비전 (two Hangul syllables 비 and 전, written vertically, one above the other)"
+   ]
+  ],
+  "style": "This is an upscaled tiny game icon of a black book with gold lettering and a gold music note. Replace ONLY the two gold kanji with the Korean 비 (top) and 전 (bottom), in the same gold colour, bold brush-like hand-lettered style, same size and slant as the kanji, following the book's perspective. Keep the music note, gold wavy border lines, book shape, shadows and everything else identical. Keep the flat magenta background exactly as it is.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "hiden_play",
+  "src": "work/hiden/hiden_play_src.png",
+  "out": "work/hiden/hiden_play_ko.png",
+  "texts": [
+   [
+    "秘伝 (the two gold kanji written vertically on the black book cover)",
+    "비전 (two Hangul syllables 비 and 전, written vertically, one above the other)"
+   ]
+  ],
+  "style": "This is an upscaled tiny game icon of a black book with gold lettering and a gold music note. Replace ONLY the two gold kanji with the Korean 비 (top) and 전 (bottom), in the same gold colour, bold brush-like hand-lettered style, same size and slant as the kanji, following the book's perspective. Keep the music note, gold wavy border lines, book shape, shadows and everything else identical. Keep the flat magenta background exactly as it is.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 2
+  }
+ }
+]

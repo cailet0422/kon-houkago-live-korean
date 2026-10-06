@@ -1,0 +1,483 @@
+{
+ "src": "work/sprites/clean__sel_tea_kiridashi.png",
+ "out": "assets_ko/sprite/sel_tea_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    8,
+    2,
+    74,
+    22
+   ],
+   "text": "연주!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    87,
+    2,
+    154,
+    22
+   ],
+   "text": "통신!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    167,
+    2,
+    236,
+    22
+   ],
+   "text": "노래하자!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    246,
+    2,
+    318,
+    22
+   ],
+   "text": "옷입히기!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    332,
+    2,
+    390,
+    22
+   ],
+   "text": "시계!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    8,
+    22,
+    74,
+    42
+   ],
+   "text": "타이틀!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    90,
+    22,
+    152,
+    42
+   ],
+   "text": "세이브!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    167,
+    22,
+    236,
+    42
+   ],
+   "text": "설정!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    246,
+    22,
+    318,
+    42
+   ],
+   "text": "앨범!",
+   "erase": "inpaint",
+   "textcolors": [
+    "#fcfc9c",
+    "#0c0c0c",
+    "#fcfcb4",
+    "#303030",
+    "#e4e48c"
+   ],
+   "tol": 90,
+   "fill": "#fcfc9c",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 14
+  },
+  {
+   "box": [
+    135,
+    157,
+    190,
+    180
+   ],
+   "text": "연주!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    195,
+    157,
+    250,
+    180
+   ],
+   "text": "통신!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    255,
+    157,
+    310,
+    180
+   ],
+   "text": "노래하자!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    314,
+    157,
+    372,
+    180
+   ],
+   "text": "옷입히기!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    378,
+    157,
+    427,
+    180
+   ],
+   "text": "시계!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    135,
+    214,
+    192,
+    235
+   ],
+   "text": "타이틀!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    198,
+    214,
+    250,
+    235
+   ],
+   "text": "세이브!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    255,
+    214,
+    311,
+    235
+   ],
+   "text": "설정!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  },
+  {
+   "box": [
+    314,
+    214,
+    372,
+    235
+   ],
+   "text": "앨범!",
+   "erase": "none",
+   "textcolors": [
+    "#fcfcfc",
+    "#0c0c0c"
+   ],
+   "tol": 70,
+   "fill": "#fcfcfc",
+   "outline": [
+    [
+     "#141414",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "size": 12
+  }
+ ]
+}

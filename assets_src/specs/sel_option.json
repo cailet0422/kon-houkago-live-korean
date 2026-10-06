@@ -1,0 +1,245 @@
+{
+ "src": "work/sprites/sprite__sel_option.png",
+ "out": "assets_ko/sprite/sel_option.png",
+ "items": [
+  {
+   "box": [
+    3,
+    4,
+    68,
+    17
+   ],
+   "text": "프로필",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    81,
+    5,
+    125,
+    17
+   ],
+   "text": "사운드",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    159,
+    5,
+    223,
+    17
+   ],
+   "text": "인스톨",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    9,
+    20,
+    62,
+    33
+   ],
+   "text": "버튼 SE",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    73,
+    20,
+    134,
+    33
+   ],
+   "text": "오토 세이브",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    145,
+    20,
+    238,
+    33
+   ],
+   "text": "메시지 속도",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#0a0a0a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    67,
+    37,
+    97,
+    47
+   ],
+   "text": "보통",
+   "fill": "#0a0a0a",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    99,
+    37,
+    129,
+    47
+   ],
+   "text": "느림",
+   "fill": "#0a0a0a",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    131,
+    37,
+    161,
+    47
+   ],
+   "text": "빠름",
+   "fill": "#0a0a0a",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    167,
+    37,
+    189,
+    47
+   ],
+   "text": "칭호",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    14,
+    53,
+    87,
+    63
+   ],
+   "text": "유저 네임",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    60,
+    67,
+    101,
+    76
+   ],
+   "text": "내 파트",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    109,
+    67,
+    151,
+    76
+   ],
+   "text": "다른 파트",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    67,
+    80,
+    93,
+    88
+   ],
+   "text": "보이스",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round"
+  },
+  {
+   "box": [
+    161,
+    68,
+    218,
+    84
+   ],
+   "text": "설정!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    115,
+    92,
+    178,
+    112
+   ],
+   "text": "칭호 선택",
+   "auto": false,
+   "font": "round",
+   "fill": "#d2fa5a",
+   "outline": [
+    [
+     "#0a0a0a",
+     2
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+[
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_azusa_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_azusa_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "아즈사",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_mio_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_mio_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "미오",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_nodoka_kiridash.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_nodoka_kiridash.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "노도카",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_ritsu_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_ritsu_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "리츠",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_sawako_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_sawako_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "사와코",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_tsumugi_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_tsumugi_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "츠무기",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_ui_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_ui_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "우이",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/tea_time__cursol__sel_tea_item_icon_yui_kiridashi.png",
+  "out": "assets_ko/tea_time/cursol/sel_tea_item_icon_yui_kiridashi.png",
+  "no_rect_clip": true,
+  "items": [
+   {
+    "box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "text": "유이",
+    "auto": false,
+    "erase": "#ffff7b",
+    "font": "hanna",
+    "fill": [
+     "#f888a8",
+     "#ff2c6c"
+    ],
+    "outline": [
+     [
+      "#2a1a8c",
+      2
+     ],
+     [
+      "#ffffff",
+      3
+     ]
+    ],
+    "pad": 0,
+    "overflow": 0,
+    "erase_box": [
+     0,
+     0,
+     128,
+     64
+    ],
+    "tbox": [
+     16,
+     7,
+     112,
+     57
+    ]
+   }
+  ]
+ }
+]

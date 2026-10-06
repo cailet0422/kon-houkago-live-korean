@@ -1,0 +1,97 @@
+{
+ "src": "work/sprites/sprite__sel_item_etc_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_etc_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    329,
+    58,
+    356,
+    74
+   ],
+   "text": "선택",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    391,
+    58,
+    420,
+    74
+   ],
+   "text": "결정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    456,
+    58,
+    483,
+    74
+   ],
+   "text": "뒤로",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    368,
+    193,
+    427,
+    211
+   ],
+   "text": "연주!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    432,
+    193,
+    491,
+    211
+   ],
+   "text": "통신!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_03_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_03_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    68,
+    0,
+    203,
+    34
+   ],
+   "text": "후와후와 타임",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#b8e8f8",
+    "#3a88c0"
+   ],
+   "outline": [
+    [
+     "#16284a",
+     1
+    ],
+    [
+     "#9fd0ff",
+     1
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_15_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_15_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    40,
+    3,
+    231,
+    33
+   ],
+   "text": "나는 나의 길을 간다",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#f8f000",
+    "#20c040"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

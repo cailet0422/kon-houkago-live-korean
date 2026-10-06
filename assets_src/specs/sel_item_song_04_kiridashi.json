@@ -1,0 +1,25 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_04_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_04_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    18,
+    2,
+    253,
+    33
+   ],
+   "text": "내 사랑은 호치키스",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#e0287a",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

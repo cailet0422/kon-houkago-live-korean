@@ -1,0 +1,28 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_18_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_18_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    12,
+    4,
+    262,
+    35
+   ],
+   "text": "Girly Storm 질주 Stick",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#fff040",
+    "#f09000"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

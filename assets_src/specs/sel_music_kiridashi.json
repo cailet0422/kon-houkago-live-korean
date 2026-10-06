@@ -1,0 +1,40 @@
+{
+ "src": "work/sprites/sprite__sel_music_kiridashi.png",
+ "out": "assets_ko/sprite/sel_music_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    40,
+    74,
+    101,
+    96
+   ],
+   "text": "연주!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    121,
+    174,
+    186,
+    196
+   ],
+   "text": "통신!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  }
+ ]
+}

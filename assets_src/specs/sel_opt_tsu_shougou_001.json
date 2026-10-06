@@ -1,0 +1,25 @@
+{
+ "src": "work/sprites/sprite__sel_opt_tsu_shougou_001.png",
+ "out": "assets_ko/sprite/sel_opt_tsu_shougou_001.png",
+ "items": [
+  {
+   "box": [
+    3,
+    4,
+    125,
+    20
+   ],
+   "text": "밴드 시작했어요",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#202020",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

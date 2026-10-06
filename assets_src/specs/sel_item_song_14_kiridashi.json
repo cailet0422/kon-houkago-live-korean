@@ -1,0 +1,28 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_14_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_14_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    17,
+    3,
+    255,
+    34
+   ],
+   "text": "말괄량이 Way To Go",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#c8b8f8",
+    "#6858c0"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

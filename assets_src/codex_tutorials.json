@@ -1,0 +1,145 @@
+[
+ {
+  "name": "sel_tea_album_tutorial_1_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_album_tutorial_1_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_album_tutorial_1_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_album_tutorial_2_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_album_tutorial_2_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_album_tutorial_2_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_album_tutorial_3_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_album_tutorial_3_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_album_tutorial_3_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_album_tutorial_4_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_album_tutorial_4_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_album_tutorial_4_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_ensou_tutorial_1_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_ensou_tutorial_1_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_ensou_tutorial_1_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_ensou_tutorial_2_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_ensou_tutorial_2_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_ensou_tutorial_2_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_ensou_tutorial_3_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_ensou_tutorial_3_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_ensou_tutorial_3_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_ensou_tutorial_4_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_ensou_tutorial_4_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_ensou_tutorial_4_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_ensou_tutorial_5_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_ensou_tutorial_5_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_ensou_tutorial_5_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_ensou_tutorial_6_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_ensou_tutorial_6_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_ensou_tutorial_6_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_item_tutorial_1_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_item_tutorial_1_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_tutorial_1_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_item_tutorial_2_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_item_tutorial_2_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_tutorial_2_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ },
+ {
+  "name": "sel_tea_item_tutorial_3_kiridashi",
+  "src": "work/sprites/sprite__sel_tea_item_tutorial_3_kiridashi.png",
+  "out": "assets_ko/sprite/sel_tea_item_tutorial_3_kiridashi.png",
+  "texts": [],
+  "style": "Text inside yellow boxes is black bold; keep the box shapes. Small text in white boxes and speech bubbles must also be translated.",
+  "merge": {
+   "thresh": 50,
+   "dilate": 2
+  }
+ }
+]

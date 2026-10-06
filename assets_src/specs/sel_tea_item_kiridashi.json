@@ -1,0 +1,82 @@
+{
+ "src": "work/sprites/sprite__sel_tea_item_kiridashi.png",
+ "out": "assets_ko/sprite/sel_tea_item_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    5,
+    4,
+    63,
+    21
+   ],
+   "text": "음식",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    5,
+    24,
+    63,
+    41
+   ],
+   "text": "소품",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    5,
+    44,
+    63,
+    61
+   ],
+   "text": "인테리어",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    5,
+    64,
+    63,
+    80
+   ],
+   "text": "메일",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

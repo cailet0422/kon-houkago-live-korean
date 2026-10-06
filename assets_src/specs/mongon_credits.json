@@ -1,0 +1,607 @@
+[
+ {
+  "src": "work/sprites/sprite__cp_title_music_03_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_03_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     11,
+     84,
+     250,
+     101
+    ],
+    "text": "작사 : 이나바 에미  작곡 : 후지스에 이츠키"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_04_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_04_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     11,
+     61,
+     144,
+     77
+    ],
+    "text": "작사 : 이나바 에미",
+    "align": "l"
+   },
+   {
+    "box": [
+     11,
+     77,
+     144,
+     93
+    ],
+    "text": "작곡 : 카와구치 스스무",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_06_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_06_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     5,
+     53,
+     163,
+     69
+    ],
+    "text": "작사 : KANATA",
+    "align": "l"
+   },
+   {
+    "box": [
+     5,
+     69,
+     163,
+     85
+    ],
+    "text": "작곡 : Tom-H@ck",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_07_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_07_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     288,
+     4,
+     424,
+     19
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     288,
+     19,
+     424,
+     34
+    ],
+    "text": "작곡 : 타무라 신지",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_08_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_08_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     5,
+     60,
+     224,
+     77
+    ],
+    "text": "작사 : 오모리 쇼코  작곡 : 타무라 신지"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_09_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_09_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     5,
+     85,
+     115,
+     108
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     118,
+     94,
+     254,
+     119
+    ],
+    "text": "작곡 : Tom-H@ck",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_10_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_10_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     10,
+     60,
+     144,
+     76
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     10,
+     76,
+     144,
+     92
+    ],
+    "text": "작곡 : 모모이시 하지메",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_11_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_11_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     10,
+     52,
+     144,
+     68
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     10,
+     68,
+     144,
+     84
+    ],
+    "text": "작곡 : 마에사와 히로유키",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_12_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_12_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     5,
+     44,
+     219,
+     61
+    ],
+    "text": "작사 : 오모리 쇼코  작곡 : 아시자와 카즈노리"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_13_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_13_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 14
+  },
+  "items": [
+   {
+    "box": [
+     326,
+     8,
+     509,
+     29
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     326,
+     29,
+     509,
+     51
+    ],
+    "text": "작곡 : Tom-H@ck",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_14_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_14_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     5,
+     53,
+     244,
+     69
+    ],
+    "text": "작사 : 오모리 쇼코  작곡 : Tom-H@ck"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_15_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_15_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     10,
+     52,
+     144,
+     68
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     10,
+     68,
+     144,
+     84
+    ],
+    "text": "작곡 : 코모리 시게오",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_16_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_16_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     10,
+     53,
+     216,
+     69
+    ],
+    "text": "작사 : 오모리 쇼코  작곡 : 오카 나오키"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_17_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_17_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 14
+  },
+  "items": [
+   {
+    "box": [
+     6,
+     125,
+     164,
+     141
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     6,
+     141,
+     164,
+     157
+    ],
+    "text": "작곡 : Tom-H@ck",
+    "align": "l"
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__cp_title_music_18_mongon.png",
+  "out": "assets_ko/sprite/cp_title_music_18_mongon.png",
+  "defaults": {
+   "font": "round",
+   "pad": 0,
+   "overflow": 2,
+   "align": "l",
+   "auto": false,
+   "fill": [
+    "#fff0f5",
+    "#ffa8c4"
+   ],
+   "outline": [
+    [
+     "#c83c6e",
+     1
+    ]
+   ],
+   "size": 12
+  },
+  "items": [
+   {
+    "box": [
+     9,
+     61,
+     113,
+     77
+    ],
+    "text": "작사 : 오모리 쇼코",
+    "align": "l"
+   },
+   {
+    "box": [
+     114,
+     61,
+     250,
+     77
+    ],
+    "text": "작곡 : 모모이시 하지메",
+    "align": "l"
+   }
+  ]
+ }
+]

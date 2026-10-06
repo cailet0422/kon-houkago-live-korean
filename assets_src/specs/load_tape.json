@@ -1,0 +1,56 @@
+[
+ {
+  "src": "work/sprites/sprite__sel_common_load_tape_kiridashi_2.png",
+  "out": "assets_ko/sprite/sel_common_load_tape_kiridashi_2.png",
+  "items": [
+   {
+    "box": [
+     190,
+     58,
+     296,
+     97
+    ],
+    "text": "로딩!",
+    "auto": false,
+    "erase": "inpaint_dark",
+    "font": "pen",
+    "fill": "#383838",
+    "size": 46,
+    "pad": 0,
+    "outline": [
+     [
+      "#383838",
+      1
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "src": "work/sprites/sprite__sel_common_load_tape_kiridashi_3.png",
+  "out": "assets_ko/sprite/sel_common_load_tape_kiridashi_3.png",
+  "items": [
+   {
+    "box": [
+     190,
+     58,
+     296,
+     97
+    ],
+    "text": "로딩!",
+    "auto": false,
+    "erase": "inpaint_dark",
+    "font": "pen",
+    "fill": "#383838",
+    "size": 46,
+    "pad": 0,
+    "outline": [
+     [
+      "#383838",
+      1
+     ]
+    ]
+   }
+  ]
+ }
+]

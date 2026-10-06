@@ -1,0 +1,26 @@
+{
+ "src": "work/sprites/sprite__cp_eff_filter_up.png",
+ "out": "assets_ko/sprite/cp_eff_filter_up.png",
+ "items": [
+  {
+   "box": [
+    17,
+    7,
+    237,
+    40
+   ],
+   "text": "텐션 업!",
+   "auto": false,
+   "font": "maple",
+   "fill": "#ff3c96",
+   "outline": [
+    [
+     "#ffffff",
+     3
+    ]
+   ],
+   "erase": "alpha",
+   "overflow": 3
+  }
+ ]
+}

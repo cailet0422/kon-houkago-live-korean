@@ -1,0 +1,240 @@
+{
+ "src": "work/sprites/sprite__sel_utaou_kiridashi.png",
+ "out": "assets_ko/sprite/sel_utaou_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    340,
+    21,
+    383,
+    53
+   ],
+   "text": "카메라!",
+   "fill": "#f0287a",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "angle": 38,
+   "th": 13
+  },
+  {
+   "box": [
+    341,
+    62,
+    384,
+    94
+   ],
+   "text": "보이스!",
+   "fill": "#f0287a",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "angle": 38,
+   "th": 13
+  },
+  {
+   "box": [
+    337,
+    100,
+    390,
+    138
+   ],
+   "text": "이펙트!",
+   "fill": "#f0287a",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "angle": 38,
+   "th": 13
+  },
+  {
+   "box": [
+    431,
+    121,
+    495,
+    143
+   ],
+   "text": "노래하자!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#f0a020",
+    "#30a8a0",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    356,
+    201,
+    384,
+    216
+   ],
+   "text": "결정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    408,
+    201,
+    477,
+    216
+   ],
+   "text": "편집 화면으로",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    381,
+    320,
+    411,
+    337
+   ],
+   "text": "결정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    433,
+    320,
+    504,
+    337
+   ],
+   "text": "편집 화면으로",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    399,
+    358,
+    510,
+    375
+   ],
+   "text": "모드 선택 화면",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    377,
+    376,
+    510,
+    393
+   ],
+   "text": "소재 팩 작성 화면",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    409,
+    394,
+    510,
+    411
+   ],
+   "text": "메인 편집 화면",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    334,
+    368,
+    370,
+    383
+   ],
+   "text": "게이지!",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

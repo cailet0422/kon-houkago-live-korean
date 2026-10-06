@@ -1,0 +1,291 @@
+{
+ "src": "work/sprites/sprite__sel_timer_widow_kiridashi_mu.png",
+ "out": "assets_ko/sprite/sel_timer_widow_kiridashi_mu.png",
+ "items": [
+  {
+   "box": [
+    258,
+    1,
+    344,
+    15
+   ],
+   "text": "캐릭터 설정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    370,
+    1,
+    415,
+    15
+   ],
+   "text": "잘 자",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    370,
+    17,
+    434,
+    31
+   ],
+   "text": "시계! 종료",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    258,
+    33,
+    297,
+    47
+   ],
+   "text": "생일",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    370,
+    33,
+    417,
+    47
+   ],
+   "text": "시간 설정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    269,
+    134,
+    309,
+    155
+   ],
+   "text": "유이",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    332,
+    134,
+    373,
+    155
+   ],
+   "text": "미오",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    391,
+    135,
+    441,
+    155
+   ],
+   "text": "아즈사",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    265,
+    167,
+    312,
+    187
+   ],
+   "text": "사와코",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    328,
+    167,
+    377,
+    187
+   ],
+   "text": "랜덤",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    313,
+    347,
+    364,
+    367
+   ],
+   "text": "츠무기",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    378,
+    346,
+    427,
+    366
+   ],
+   "text": "노도카",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    448,
+    346,
+    484,
+    367
+   ],
+   "text": "우이",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    320,
+    378,
+    357,
+    399
+   ],
+   "text": "리츠",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     2
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    258,
+    17,
+    324,
+    31
+   ],
+   "text": "알람 설정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#c80808",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

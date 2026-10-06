@@ -1,0 +1,25 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_07_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_07_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    67,
+    3,
+    203,
+    33
+   ],
+   "text": "『Let's Go』",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#e81c1c",
+   "outline": [
+    [
+     "#fff8e0",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

@@ -1,0 +1,687 @@
+{
+ "src": "work/sprites/sprite__sel_item_mongon_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_mongon_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    44,
+    4,
+    75,
+    21
+   ],
+   "text": "부실",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    38,
+    24,
+    82,
+    41
+   ],
+   "text": "상점가",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    45,
+    44,
+    75,
+    61
+   ],
+   "text": "강당",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    38,
+    64,
+    82,
+    81
+   ],
+   "text": "정류장",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    38,
+    84,
+    82,
+    101
+   ],
+   "text": "교문 앞",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    18,
+    104,
+    102,
+    121
+   ],
+   "text": "라이브 하우스",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    30,
+    124,
+    89,
+    141
+   ],
+   "text": "무기 별장",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    18,
+    144,
+    102,
+    161
+   ],
+   "text": "해 질 녘 부실",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    18,
+    164,
+    102,
+    181
+   ],
+   "text": "록 클리프",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    4,
+    184,
+    116,
+    201
+   ],
+   "text": "화이트 스테이지",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    4,
+    204,
+    116,
+    221
+   ],
+   "text": "핑크 레인보우",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    4,
+    224,
+    116,
+    241
+   ],
+   "text": "롤링 스타",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    133,
+    4,
+    218,
+    21
+   ],
+   "text": "데이드림",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    126,
+    24,
+    227,
+    40
+   ],
+   "text": "AZUSA 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    127,
+    44,
+    225,
+    61
+   ],
+   "text": "러블리 룸",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    120,
+    64,
+    232,
+    81
+   ],
+   "text": "컬러풀 박스",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    134,
+    84,
+    218,
+    101
+   ],
+   "text": "빅 드럼",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    120,
+    104,
+    231,
+    121
+   ],
+   "text": "캔디 라이트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    160,
+    124,
+    191,
+    141
+   ],
+   "text": "해변",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    263,
+    3,
+    357,
+    16
+   ],
+   "text": "아이템 사용 안 함",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    262,
+    19,
+    358,
+    32
+   ],
+   "text": "BAD여도 콤보 유지",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    258,
+    35,
+    361,
+    48
+   ],
+   "text": "텐션이 내려가지 않음",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    275,
+    51,
+    344,
+    64
+   ],
+   "text": "버튼 수 감소",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    271,
+    67,
+    349,
+    80
+   ],
+   "text": "버튼 수 증가",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    236,
+    83,
+    383,
+    96
+   ],
+   "text": "점수 증가, 판정은 엄격",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    242,
+    99,
+    377,
+    112
+   ],
+   "text": "스페셜 연출 반드시 발동",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    275,
+    115,
+    345,
+    128
+   ],
+   "text": "자동 연주",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    255,
+    131,
+    364,
+    143
+   ],
+   "text": "아무 버튼이나 OK!",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    256,
+    147,
+    363,
+    160
+   ],
+   "text": "끝까지 버튼 증가",
+   "fill": "#2a2a2a",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    236,
+    164,
+    343,
+    188
+   ],
+   "text": "비전의 악보",
+   "fill": "#fafafa",
+   "auto": false,
+   "font": "round",
+   "erase": "alpha",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ]
+  },
+  {
+   "box": [
+    421,
+    5,
+    463,
+    27
+   ],
+   "text": "없음",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    403,
+    33,
+    480,
+    55
+   ],
+   "text": "쇼콜라",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    411,
+    61,
+    473,
+    83
+   ],
+   "text": "아이스",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    400,
+    88,
+    483,
+    111
+   ],
+   "text": "붕어빵",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    411,
+    116,
+    472,
+    139
+   ],
+   "text": "케이크",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    403,
+    144,
+    481,
+    168
+   ],
+   "text": "쿠키",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    412,
+    172,
+    471,
+    195
+   ],
+   "text": "타르트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    408,
+    200,
+    474,
+    223
+   ],
+   "text": "막과자",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    389,
+    228,
+    494,
+    251
+   ],
+   "text": "딸기우유",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

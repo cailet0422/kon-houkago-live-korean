@@ -1,0 +1,32 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_19_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_19_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    7,
+    2,
+    267,
+    34
+   ],
+   "text": "목표는 해피 100%↑↑↑",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#ffb040",
+    "#f06000"
+   ],
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ],
+    [
+     "#503010",
+     1
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

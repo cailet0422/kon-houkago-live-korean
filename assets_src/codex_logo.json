@@ -1,0 +1,26 @@
+[
+ {
+  "name": "logo_title",
+  "src": "work/logo/logo_src_3x.png",
+  "out": "work/logo/logo_ko_3x.png",
+  "texts": [
+   [
+    "けいおん!",
+    "케이온!"
+   ],
+   [
+    "放課後",
+    "방과후"
+   ],
+   [
+    "ライブ!!",
+    "라이브!!"
+   ]
+  ],
+  "style": "This is the game's title logo. Recreate it in Korean with the same design language: '케이온!' in big chunky bubbly red/orange letters with a thick cream outline and drop shadow (same size and position as けいおん!), keep the small 'K-ON!' mark above it; '방과후' in the same green brush-like letters with white outline, and '라이브!!' in the same orange letters. Keep the treble clef and music notes decoration. In the original, the letter お contains a white electric-guitar silhouette; put the same guitar silhouette inside the circle of '온'. Make the Korean lettering hand-drawn and playful like the original, not a plain font. Keep '방과후' and '라이브!!' with a small gap like the original.",
+  "bg": "#0000ff",
+  "merge": {
+   "whole": true
+  }
+ }
+]

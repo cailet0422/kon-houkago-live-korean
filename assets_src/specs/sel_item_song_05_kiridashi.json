@@ -1,0 +1,25 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_05_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_05_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    15,
+    3,
+    254,
+    32
+   ],
+   "text": "붓펜 ~볼펜~",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#ffffff",
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

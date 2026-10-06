@@ -1,0 +1,613 @@
+{
+ "src": "work/sprites/sprite__sel_isyou_edit_kiridashi.png",
+ "out": "assets_ko/sprite/sel_isyou_edit_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    6,
+    3,
+    78,
+    17
+   ],
+   "text": "헤어스타일",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    7,
+    19,
+    76,
+    32
+   ],
+   "text": "코스튬",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    7,
+    35,
+    77,
+    49
+   ],
+   "text": "액세서리",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    13,
+    51,
+    69,
+    65
+   ],
+   "text": "마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    85,
+    3,
+    158,
+    18
+   ],
+   "text": "헤어스타일",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    85,
+    18,
+    158,
+    33
+   ],
+   "text": "코스튬",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    86,
+    34,
+    157,
+    50
+   ],
+   "text": "액세서리",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    92,
+    50,
+    150,
+    66
+   ],
+   "text": "마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    461,
+    65,
+    507,
+    80
+   ],
+   "text": "착용 중",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    477,
+    84,
+    491,
+    99
+   ],
+   "text": "유이",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "squeeze": true
+  },
+  {
+   "box": [
+    477,
+    105,
+    491,
+    120
+   ],
+   "text": "미오",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "squeeze": true
+  },
+  {
+   "box": [
+    476,
+    124,
+    491,
+    140
+   ],
+   "text": "리츠",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "squeeze": true
+  },
+  {
+   "box": [
+    477,
+    145,
+    491,
+    160
+   ],
+   "text": "무기",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "squeeze": true
+  },
+  {
+   "box": [
+    477,
+    165,
+    492,
+    180
+   ],
+   "text": "아즈",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "squeeze": true
+  },
+  {
+   "box": [
+    169,
+    165,
+    236,
+    177
+   ],
+   "text": "유이 마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    169,
+    181,
+    236,
+    193
+   ],
+   "text": "미오 마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    169,
+    197,
+    236,
+    209
+   ],
+   "text": "리츠 마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    169,
+    213,
+    236,
+    225
+   ],
+   "text": "무기 마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    169,
+    229,
+    236,
+    241
+   ],
+   "text": "아즈 마이 세트",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    250,
+    165,
+    281,
+    177
+   ],
+   "text": "세이브",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    251,
+    181,
+    280,
+    193
+   ],
+   "text": "로드",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    254,
+    197,
+    277,
+    209
+   ],
+   "text": "삭제",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    244,
+    213,
+    287,
+    225
+   ],
+   "text": "이름 변경",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    148,
+    247,
+    174,
+    261
+   ],
+   "text": "등록",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    136,
+    263,
+    187,
+    277
+   ],
+   "text": "불러오기",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    148,
+    279,
+    175,
+    293
+   ],
+   "text": "삭제",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    136,
+    295,
+    187,
+    309
+   ],
+   "text": "이름 변경",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha",
+   "size": 11
+  },
+  {
+   "box": [
+    4,
+    327,
+    89,
+    341
+   ],
+   "text": "사용 중 아이템",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    337,
+    114,
+    399,
+    134
+   ],
+   "text": "옷입히기!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#f0a020",
+    "#30a8a0",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    204,
+    247,
+    263,
+    265
+   ],
+   "text": "노래하자!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#f0a020",
+    "#30a8a0",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    284,
+    247,
+    367,
+    276
+   ],
+   "text": "착용 중",
+   "auto": false,
+   "font": "round",
+   "fill": "#f8f040",
+   "outline": [
+    [
+     "#202020",
+     2
+    ]
+   ],
+   "erase": "alpha"
+  }
+ ]
+}

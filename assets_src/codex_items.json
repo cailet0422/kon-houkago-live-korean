@@ -1,0 +1,368 @@
+[
+ {
+  "name": "item_interior_17_kanban_s1",
+  "src": "work/sprites/tea_time__Item__interior__17_kanban__item_interior_17_kanban_s1.png",
+  "out": "assets_ko/tea_time/Item/interior/17_kanban/item_interior_17_kanban_s1.png",
+  "texts": [
+   [
+    "桜高祭 (vertical)",
+    "학원제 (vertical, one syllable per row)"
+   ]
+  ],
+  "scale": 3,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Pink brush lettering on the purple banner; keep the grey frame parts untouched.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_interior_28_possinkan_s1",
+  "src": "work/sprites/tea_time__Item__interior__28_pos_sinkan__item_interior_28_possinkan_s1.png",
+  "out": "assets_ko/tea_time/Item/interior/28_pos_sinkan/item_interior_28_possinkan_s1.png",
+  "texts": [
+   [
+    "音楽室独り占め!!",
+    "음악실 독차지!!"
+   ],
+   [
+    "バンドやりませんか",
+    "밴드 하지 않을래?"
+   ]
+  ],
+  "scale": 3,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Hand-written black marker on a white recruiting poster; keep the drawings.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_interior_35_posmiofc_s1",
+  "src": "work/sprites/tea_time__Item__interior__item_interior_35_posmiofc_s1__item_interior_35_posmiofc_s1.png",
+  "out": "assets_ko/tea_time/Item/interior/item_interior_35_posmiofc_s1/item_interior_35_posmiofc_s1.png",
+  "texts": [
+   [
+    "澪ちゃん",
+    "미오쨩"
+   ],
+   [
+    "ファンクラブ",
+    "팬클럽"
+   ],
+   [
+    "会員",
+    "회원"
+   ],
+   [
+    "募集中",
+    "모집 중"
+   ]
+  ],
+  "scale": 3,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Bold red brush text for the first two lines, black for the last two; keep the chibi Mio drawing and hearts.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_09_boardgame",
+  "src": "work/sprites/tea_time__Item__komono__09_boardgame__item_komono_09_boardgame.png",
+  "out": "assets_ko/tea_time/Item/komono/09_boardgame/item_komono_09_boardgame.png",
+  "texts": [
+   [
+    "超",
+    "초"
+   ],
+   [
+    "人生",
+    "인생"
+   ],
+   [
+    "すごろく",
+    "주사위놀이"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Board-game box lid, colourful bold lettering.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_13_photo",
+  "src": "work/sprites/tea_time__Item__komono__13_photo__item_komono_13_photo.png",
+  "out": "assets_ko/tea_time/Item/komono/13_photo/item_komono_13_photo.png",
+  "texts": [
+   [
+    "学祭 澪",
+    "학원제 미오"
+   ],
+   [
+    "(秘) stamp",
+    "(비) stamp"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Black hand-written text on a photo envelope; the circled 秘 becomes a circled 비; leave the small doodle.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_18_syousetu",
+  "src": "work/sprites/tea_time__Item__komono__18_syousetu__item_komono_18_syousetu.png",
+  "out": "assets_ko/tea_time/Item/komono/18_syousetu/item_komono_18_syousetu.png",
+  "texts": [
+   [
+    "一匹のサル",
+    "원숭이 한 마리"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Book title label on the cover.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_21_kaninsyo",
+  "src": "work/sprites/tea_time__Item__komono__21_kaninsyo__item_komono_21_kaninsyo.png",
+  "out": "assets_ko/tea_time/Item/komono/21_kaninsyo/item_komono_21_kaninsyo.png",
+  "texts": [
+   [
+    "澪ちゃん",
+    "미오쨩"
+   ],
+   [
+    "ファンクラブ",
+    "팬클럽"
+   ],
+   [
+    "会員",
+    "회원"
+   ],
+   [
+    "募集中",
+    "모집 중"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Red and black hand lettering on a small card; keep the drawing.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_28_kippu",
+  "src": "work/sprites/tea_time__Item__komono__28_kippu__item_komono_28_kippu.png",
+  "out": "assets_ko/tea_time/Item/komono/28_kippu/item_komono_28_kippu.png",
+  "texts": [
+   [
+    "桜ヶ丘 → 260円",
+    "사쿠라가오카 → 260엔"
+   ]
+  ],
+  "scale": 8,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Green train ticket; the tiny lines may become illegible dots.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_39_fukubiki",
+  "src": "work/sprites/tea_time__Item__komono__39_fukubiki__item_komono_39_fukubiki.png",
+  "out": "assets_ko/tea_time/Item/komono/39_fukubiki/item_komono_39_fukubiki.png",
+  "texts": [
+   [
+    "抽選券",
+    "추첨권"
+   ]
+  ],
+  "scale": 8,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Red bold lettering on a pink lottery ticket.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_40_plate",
+  "src": "work/sprites/tea_time__Item__komono__40_plate__item_komono_40_plate.png",
+  "out": "assets_ko/tea_time/Item/komono/40_plate/item_komono_40_plate.png",
+  "texts": [
+   [
+    "準備室",
+    "준비실"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. White text on the black door plate.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_42_album",
+  "src": "work/sprites/tea_time__Item__komono__item_komono_42_album__item_komono_42_album.png",
+  "out": "assets_ko/tea_time/Item/komono/item_komono_42_album/item_komono_42_album.png",
+  "texts": [
+   [
+    "おもいで",
+    "추억"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Orange hand lettering on the album cover; keep the photo.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_komono_20_horror",
+  "src": "work/sprites/tea_time__Item__komono__item_komono_20_horror__item_komono_20_horror.png",
+  "out": "assets_ko/tea_time/Item/komono/item_komono_20_horror/item_komono_20_horror.png",
+  "texts": [
+   [
+    "ふじつぼ",
+    "따개비"
+   ]
+  ],
+  "scale": 6,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. Dripping blood-red horror title on a horror novel cover.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  }
+ },
+ {
+  "name": "item_rakugaki_azusa",
+  "src": "work/sprites/tea_time__Item__rakugaki__item_rakugaki_azusa__item_rakugaki_azusa.png",
+  "out": "assets_ko/tea_time/Item/rakugaki/item_rakugaki_azusa/item_rakugaki_azusa.png",
+  "texts": [
+   [
+    "今週の目標",
+    "이번 주 목표"
+   ],
+   [
+    "一日一練習!",
+    "하루 한 번 연습!"
+   ]
+  ],
+  "scale": 4,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. White chalk hand-writing on a transparent background (chalkboard doodle).",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  },
+  "bg": "#00ff00"
+ },
+ {
+  "name": "item_rakugaki_nodoka",
+  "src": "work/sprites/tea_time__Item__rakugaki__item_rakugaki_nodoka__item_rakugaki_nodoka.png",
+  "out": "assets_ko/tea_time/Item/rakugaki/item_rakugaki_nodoka/item_rakugaki_nodoka.png",
+  "texts": [
+   [
+    "生徒会会議 (vertical)",
+    "학생회 회의"
+   ],
+   [
+    "・体育祭に向けて",
+    "・체육제 준비"
+   ],
+   [
+    "・各種競技",
+    "・각종 경기"
+   ],
+   [
+    "・運営方法",
+    "・운영 방법"
+   ],
+   [
+    "ゆい (next to the doodle face)",
+    "유이"
+   ]
+  ],
+  "scale": 4,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. White chalk hand-writing on a transparent background (chalkboard doodle). The Japanese is vertical; you may write the Korean vertically in the same columns.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  },
+  "bg": "#00ff00"
+ },
+ {
+  "name": "item_rakugaki_sawako",
+  "src": "work/sprites/tea_time__Item__rakugaki__item_rakugaki_sawako__item_rakugaki_sawako.png",
+  "out": "assets_ko/tea_time/Item/rakugaki/item_rakugaki_sawako/item_rakugaki_sawako.png",
+  "texts": [
+   [
+    "むぎちゃんへ",
+    "무기쨩에게"
+   ],
+   [
+    "お砂糖が切れました。",
+    "설탕이 다 떨어졌어요."
+   ],
+   [
+    "さわ子",
+    "사와코"
+   ]
+  ],
+  "scale": 4,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. White chalk hand-writing on a transparent background (chalkboard doodle).",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  },
+  "bg": "#00ff00"
+ },
+ {
+  "name": "item_rakugaki_tumugi",
+  "src": "work/sprites/tea_time__Item__rakugaki__item_rakugaki_tumugi__item_rakugaki_tumugi.png",
+  "out": "assets_ko/tea_time/Item/rakugaki/item_rakugaki_tumugi/item_rakugaki_tumugi.png",
+  "texts": [
+   [
+    "翻車魚 (vertical)",
+    "개복치 (vertical)"
+   ]
+  ],
+  "scale": 4,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. White chalk hand-writing on a transparent background (chalkboard doodle).",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  },
+  "bg": "#00ff00"
+ },
+ {
+  "name": "item_rakugaki_yui",
+  "src": "work/sprites/tea_time__Item__rakugaki__item_rakugaki_yui__item_rakugaki_yui.png",
+  "out": "assets_ko/tea_time/Item/rakugaki/item_rakugaki_yui/item_rakugaki_yui.png",
+  "texts": [
+   [
+    "ギー太",
+    "기-타"
+   ],
+   [
+    "にゃ",
+    "냐"
+   ]
+  ],
+  "scale": 4,
+  "style": "This is a tiny in-game prop texture shown upscaled; keep it simple and readable. White chalk hand-writing on a transparent background (chalkboard doodle). ギー太 is in yellow chalk inside a purple cloud.",
+  "merge": {
+   "thresh": 40,
+   "dilate": 1
+  },
+  "bg": "#00ff00"
+ }
+]

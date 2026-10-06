@@ -1,0 +1,72 @@
+[
+ {
+  "name": "sel_tea_tokei_tutorial_1_kiridashi",
+  "header": [
+   "시계! 모드에서는 캐릭터가 시간을 알려줘요!",
+   "귀여운 탁상시계 애플리케이션입니다"
+  ],
+  "bubbles": [
+   {
+    "id": 0,
+    "lines": [
+     "본체의",
+     "설정 시간을 표시"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_tokei_tutorial_2_kiridashi",
+  "header": [
+   "설정할 수 있는 캐릭터는 8명! 랜덤도 고를 수 있어요",
+   "좋아하는 캐릭터를 골라 커스터마이즈합시다!"
+  ]
+ },
+ {
+  "name": "sel_tea_tokei_tutorial_3_kiridashi",
+  "header": [
+   "알람 설정도 가능! 시간이 되면 알려줍니다",
+   "설정 시간이나 캐릭터에 따라 보이스가 바뀔지도……?"
+  ],
+  "bubbles": [
+   {
+    "lines": [
+     "알람을 ON으로 하고",
+     "시간을 설정하자!"
+    ],
+    "style": {
+     "fill": [
+      "#ccff33",
+      "#00cc88"
+     ]
+    },
+    "border": [
+     150,
+     72,
+     318,
+     136
+    ]
+   },
+   {
+    "id": 1,
+    "lines": [
+     "화면이 눈부실 때는",
+     "취침 모드로 해 보세요"
+    ],
+    "style": {
+     "fill": "#000000",
+     "outline": [],
+     "align": "l",
+     "font": "gothic"
+    }
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_tokei_tutorial_4_kiridashi",
+  "header": [
+   "당신의 생일을 설정해 두면",
+   "뭔가 좋은 일이 있을지도!?"
+  ]
+ }
+]

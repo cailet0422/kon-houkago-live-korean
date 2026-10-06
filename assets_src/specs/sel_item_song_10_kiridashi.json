@@ -1,0 +1,32 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_10_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_10_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    40,
+    2,
+    233,
+    34
+   ],
+   "text": "기-타에게 푹 빠졌어",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#f8b0d0",
+    "#e05080"
+   ],
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ],
+    [
+     "#c0a0d0",
+     1
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

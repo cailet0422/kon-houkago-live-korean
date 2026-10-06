@@ -1,0 +1,158 @@
+{
+ "src": "work/sprites/sprite__sel_tea_item_koumoku_kiridashi.png",
+ "out": "assets_ko/sprite/sel_tea_item_koumoku_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    359,
+    5,
+    386,
+    20
+   ],
+   "text": "유이",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    359,
+    25,
+    386,
+    39
+   ],
+   "text": "미오",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    352,
+    45,
+    392,
+    59
+   ],
+   "text": "츠무기",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    360,
+    65,
+    384,
+    79
+   ],
+   "text": "리츠",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    353,
+    85,
+    392,
+    100
+   ],
+   "text": "아즈사",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    339,
+    105,
+    405,
+    120
+   ],
+   "text": "사와코 선생님",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    353,
+    125,
+    392,
+    139
+   ],
+   "text": "노도카",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    359,
+    145,
+    386,
+    159
+   ],
+   "text": "우이",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

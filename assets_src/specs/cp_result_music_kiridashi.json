@@ -1,0 +1,61 @@
+{
+ "src": "work/sprites/sprite__cp_result_music_kiridashi.png",
+ "out": "assets_ko/sprite/cp_result_music_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    3,
+    20,
+    74,
+    42
+   ],
+   "text": "공헌도",
+   "auto": false,
+   "font": "round",
+   "fill": [
+    "#f4f020",
+    "#20c8e8"
+   ],
+   "outline": [
+    [
+     "#1a1a3a",
+     2
+    ]
+   ]
+  },
+  {
+   "box": [
+    244,
+    341,
+    303,
+    359
+   ],
+   "text": "통신!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    110,
+    469,
+    184,
+    493
+   ],
+   "text": "연주!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  }
+ ]
+}

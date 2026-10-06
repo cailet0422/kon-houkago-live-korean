@@ -1,0 +1,28 @@
+{
+ "src": "work/sprites/sprite__sel_item_song_06_kiridashi.png",
+ "out": "assets_ko/sprite/sel_item_song_06_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    33,
+    3,
+    237,
+    34
+   ],
+   "text": "카레 다음 라이스",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#ffc030",
+    "#f07000"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

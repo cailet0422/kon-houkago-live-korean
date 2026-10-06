@@ -1,0 +1,441 @@
+[
+ {
+  "name": "sel_tea_tushin_tutorial_1_kiridashi",
+  "header": [
+   "통신!에 들어가면 리더로서 밴드를 결성할지",
+   "멤버로서 참가할지를 선택해 주세요"
+  ]
+ },
+ {
+  "name": "sel_tea_tushin_tutorial_2_kiridashi",
+  "header": [
+   "연주 중 표시되는 아이콘은 다른 멤버의 텐션입니다",
+   "모두의 텐션이 너무 떨어지면 연주가 끝나 버려요"
+  ],
+  "extra_defaults": {
+   "auto": false,
+   "font": "round",
+   "erase": "#d22247",
+   "pad": 0,
+   "overflow": 3
+  },
+  "extra": [
+   {
+    "box": [
+     42,
+     84,
+     182,
+     104
+    ],
+    "text": "다른 멤버의 텐션 표시",
+    "fill": [
+     "#ffff55",
+     "#66dd00"
+    ],
+    "outline": [
+     [
+      "#003300",
+      1
+     ],
+     [
+      "#ffffff",
+      2
+     ]
+    ]
+   },
+   {
+    "box": [
+     208,
+     126,
+     240,
+     145
+    ],
+    "text": "높음",
+    "fill": [
+     "#ff8800",
+     "#ee1100"
+    ],
+    "outline": [
+     [
+      "#000000",
+      1
+     ],
+     [
+      "#ffffff",
+      1
+     ]
+    ]
+   },
+   {
+    "box": [
+     353,
+     126,
+     392,
+     145
+    ],
+    "text": "낮음",
+    "fill": [
+     "#88ffff",
+     "#00aaee"
+    ],
+    "outline": [
+     [
+      "#000000",
+      1
+     ],
+     [
+      "#ffffff",
+      1
+     ]
+    ]
+   },
+   {
+    "box": [
+     60,
+     171,
+     352,
+     191
+    ],
+    "text": "모두 협력해서 라이브를 성공시키자!",
+    "fill": "#ffffff",
+    "size": 14
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_tushin_tutorial_3_kiridashi",
+  "header": [
+   "연주 중 화면에 하트가 표시되면",
+   "보너스 찬스! 「Cagayake! 모드」에 돌입합니다"
+  ],
+  "bubbles": [
+   {
+    "border": [
+     10,
+     76,
+     150,
+     160
+    ],
+    "lines": [
+     "모두의 콤보로",
+     "하트가 쌓여요"
+    ],
+    "style": {
+     "fill": [
+      "#eeff22",
+      "#22ddff"
+     ]
+    }
+   },
+   {
+    "border": [
+     258,
+     118,
+     394,
+     190
+    ],
+    "lines": [
+     "쌓인 양에 따라",
+     "스코어 보너스!"
+    ],
+    "style": {
+     "fill": [
+      "#ffff44",
+      "#ffaa00"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_tushin_tutorial_4_kiridashi",
+  "header": [
+   "통신!에서는 연주!의 MC 대신",
+   "멤버 전원이 「밴드 MC」를 합니다"
+  ],
+  "bubbles": [
+   {
+    "border": [
+     24,
+     80,
+     165,
+     160
+    ],
+    "lines": [
+     "밴드 MC는 2~4개의",
+     "프레이즈가 나와"
+    ],
+    "style": {
+     "fill": [
+      "#ddff66",
+      "#33cc33"
+     ],
+     "outline": [
+      [
+       "#004400",
+       1
+      ],
+      [
+       "#ffffff",
+       1
+      ]
+     ]
+    }
+   },
+   {
+    "border": [
+     252,
+     104,
+     372,
+     178
+    ],
+    "lines": [
+     "전원이 맞추면",
+     "성공!"
+    ],
+    "style": {
+     "fill": [
+      "#ddff66",
+      "#33cc33"
+     ],
+     "outline": [
+      [
+       "#004400",
+       1
+      ],
+      [
+       "#ffffff",
+       1
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_tushin_tutorial_5_kiridashi",
+  "header": [
+   "통신!의 결과는 밴드 멤버 전원의 플레이를",
+   "반영한 「밴드 스코어」로 결정됩니다"
+  ],
+  "bubbles": [
+   {
+    "id": 0,
+    "lines": [
+     "코스튬 입수나",
+     "모드 추가도 가능하니",
+     "혼자서 진행이 어려울 때는",
+     "친구와 협력하자!"
+    ],
+    "style": {
+     "fill": "#000000",
+     "outline": [],
+     "align": "l",
+     "font": "gothic",
+     "size": 13
+    }
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_utaou_tutorial_1_kiridashi",
+  "header": [
+   "먼저 무비를 만들 곡·스테이지를 고르세요"
+  ]
+ },
+ {
+  "name": "sel_tea_utaou_tutorial_2_kiridashi",
+  "header": [
+   "다음으로 사용할 소재를 등록합니다"
+  ],
+  "bubbles": [
+   {
+    "border": [
+     258,
+     86,
+     400,
+     152
+    ],
+    "lines": [
+     "게이지가 꽉 찰 때까지",
+     "고를 수 있어"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_utaou_tutorial_3_kiridashi",
+  "header": [
+   "소재를 골랐으면 드디어 편집!",
+   "곡의 흐름에 따라 소재를 끼워 넣어 갑니다"
+  ],
+  "bubbles": [
+   {
+    "id": 0,
+    "lines": [
+     "소재"
+    ],
+    "style": {
+     "size": 14
+    }
+   }
+  ],
+  "extra_defaults": {
+   "auto": false,
+   "font": "round",
+   "pad": 0,
+   "overflow": 3
+  },
+  "extra": [
+   {
+    "box": [
+     168,
+     157,
+     238,
+     179
+    ],
+    "text": "곡의 흐름",
+    "erase": "inpaint",
+    "textcolors": [
+     "#000000",
+     "#ffdd00",
+     "#ff8800",
+     "#ffaa00",
+     "#ff6600",
+     "#ffcc00"
+    ],
+    "tol": 70,
+    "grow": 1,
+    "fill": [
+     "#ffee00",
+     "#ff7700"
+    ],
+    "outline": [
+     [
+      "#000000",
+      1
+     ],
+     [
+      "#ffffff",
+      1
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_utaou_tutorial_4_kiridashi",
+  "header": [
+   "소재를 놓고 싶은 위치에 커서를 맞추고",
+   "끼워 넣을 것을 고르세요"
+  ],
+  "bubbles": [
+   {
+    "border": [
+     96,
+     62,
+     240,
+     132
+    ],
+    "lines": [
+     "끼워 넣고 싶은",
+     "곳에 커서를",
+     "맞추고 ○버튼"
+    ],
+    "style": {
+     "size": 11
+    }
+   },
+   {
+    "border": [
+     246,
+     140,
+     404,
+     197
+    ],
+    "lines": [
+     "등록해 둔",
+     "모션에서 고를 수 있어"
+    ],
+    "style": {
+     "fill": [
+      "#ffff44",
+      "#33dd66"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_utaou_tutorial_5_kiridashi",
+  "header": [
+   "한 번 더 ○버튼을 누르면 끼워 넣기 완료!",
+   "끼워 넣은 위치는 다시 설정할 수 있습니다"
+  ],
+  "bubbles": [
+   {
+    "id": 0,
+    "lines": [
+     "재생 시간"
+    ]
+   },
+   {
+    "border": [
+     226,
+     126,
+     404,
+     178
+    ],
+    "lines": [
+     "한 번 배치한 뒤에도",
+     "다시 조정할 수 있어"
+    ],
+    "style": {
+     "fill": [
+      "#ffff44",
+      "#22ddff"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "name": "sel_tea_utaou_tutorial_6_kiridashi",
+  "header": [
+   "그중에는 재생 시간을 바꿀 수 있는 소재도 있습니다",
+   "또, 같은 타이밍에 둘 수 없는 것도 있으니 주의!"
+  ],
+  "bubbles": [
+   {
+    "border": [
+     84,
+     140,
+     220,
+     192
+    ],
+    "lines": [
+     "재생 길이를",
+     "바꿀 수 있어!"
+    ]
+   },
+   {
+    "border": [
+     250,
+     136,
+     404,
+     194
+    ],
+    "lines": [
+     "보라색 부분에는",
+     "소재를 둘 수 없어요"
+    ],
+    "style": {
+     "fill": [
+      "#ffff44",
+      "#22ddff"
+     ]
+    }
+   }
+  ]
+ }
+]

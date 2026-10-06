@@ -1,0 +1,90 @@
+{
+ "src": "work/sprites/sprite__sel_timer_moji_kiridashi_ri.png",
+ "out": "assets_ko/sprite/sel_timer_moji_kiridashi_ri.png",
+ "items": [
+  {
+   "box": [
+    164,
+    465,
+    189,
+    497
+   ],
+   "text": "일",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    196,
+    465,
+    221,
+    497
+   ],
+   "text": "월",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    227,
+    465,
+    255,
+    497
+   ],
+   "text": "화",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    259,
+    465,
+    286,
+    497
+   ],
+   "text": "수",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    291,
+    465,
+    318,
+    497
+   ],
+   "text": "목",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    323,
+    465,
+    350,
+    497
+   ],
+   "text": "금",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    356,
+    465,
+    381,
+    497
+   ],
+   "text": "토",
+   "auto": true,
+   "font": "round",
+   "erase": "alpha"
+  }
+ ]
+}

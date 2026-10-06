@@ -1,0 +1,97 @@
+{
+ "src": "work/sprites/sprite__sel_chara_mugi_etc_kiridashi.png",
+ "out": "assets_ko/sprite/sel_chara_mugi_etc_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    81,
+    10,
+    107,
+    26
+   ],
+   "text": "선택",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    143,
+    10,
+    171,
+    26
+   ],
+   "text": "결정",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    208,
+    11,
+    234,
+    26
+   ],
+   "text": "뒤로",
+   "fill": "#fafafa",
+   "outline": [
+    [
+     "#2a2a3a",
+     1
+    ]
+   ],
+   "auto": false,
+   "font": "round",
+   "erase": "alpha"
+  },
+  {
+   "box": [
+    340,
+    5,
+    399,
+    23
+   ],
+   "text": "연주!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#3070d0",
+    "#e0508c"
+   ],
+   "fill": null
+  },
+  {
+   "box": [
+    404,
+    5,
+    463,
+    23
+   ],
+   "text": "통신!",
+   "auto": false,
+   "font": "maple",
+   "charfills": [
+    "#e02850",
+    "#30a8a0",
+    "#e0508c"
+   ],
+   "fill": null
+  }
+ ]
+}

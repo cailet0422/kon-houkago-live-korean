@@ -1,0 +1,26 @@
+{
+ "src": "work/sprites/sprite__cp_eff_filter_down.png",
+ "out": "assets_ko/sprite/cp_eff_filter_down.png",
+ "items": [
+  {
+   "box": [
+    17,
+    7,
+    237,
+    41
+   ],
+   "text": "텐션 다운!",
+   "auto": false,
+   "font": "maple",
+   "fill": "#2896f0",
+   "outline": [
+    [
+     "#ffffff",
+     3
+    ]
+   ],
+   "erase": "alpha",
+   "overflow": 3
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "src": "work/sprites/sprite__sel_utaou_song_kiridashi.png",
+ "out": "assets_ko/sprite/sel_utaou_song_kiridashi.png",
+ "items": [
+  {
+   "box": [
+    5,
+    48,
+    83,
+    68
+   ],
+   "text": "후와후와 타임",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#b8e8f8",
+    "#3a88c0"
+   ],
+   "outline": [
+    [
+     "#16284a",
+     1
+    ],
+    [
+     "#9fd0ff",
+     1
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    4,
+    72,
+    129,
+    89
+   ],
+   "text": "내 사랑은 호치키스",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#e0287a",
+   "outline": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    5,
+    93,
+    127,
+    110
+   ],
+   "text": "붓펜 ~볼펜~",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#ffffff",
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    5,
+    116,
+    106,
+    133
+   ],
+   "text": "카레 다음 라이스",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#ffc030",
+    "#f07000"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    7,
+    137,
+    85,
+    156
+   ],
+   "text": "『Let's Go』",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#e81c1c",
+   "outline": [
+    [
+     "#fff8e0",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    6,
+    204,
+    100,
+    221
+   ],
+   "text": "기-타에게 푹 빠졌어",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#f8b0d0",
+    "#e05080"
+   ],
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ],
+    [
+     "#c0a0d0",
+     1
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    5,
+    292,
+    118,
+    308
+   ],
+   "text": "말괄량이 Way To Go",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#c8b8f8",
+    "#6858c0"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    6,
+    313,
+    101,
+    330
+   ],
+   "text": "나는 나의 길을 간다",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#f8f000",
+    "#20c040"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    6,
+    335,
+    164,
+    353
+   ],
+   "text": "Dear My Keys ~건반의 마법~",
+   "font": "round",
+   "erase": "alpha",
+   "fill": "#fff4f8",
+   "outline": [
+    [
+     "#e87898",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    6,
+    379,
+    142,
+    398
+   ],
+   "text": "Girly Storm 질주 Stick",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#fff040",
+    "#f09000"
+   ],
+   "outline": [
+    [
+     "#101010",
+     2
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "box": [
+    6,
+    401,
+    135,
+    419
+   ],
+   "text": "목표는 해피 100%↑↑↑",
+   "font": "round",
+   "erase": "alpha",
+   "fill": [
+    "#ffb040",
+    "#f06000"
+   ],
+   "outline": [
+    [
+     "#ffffff",
+     1
+    ],
+    [
+     "#503010",
+     1
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}

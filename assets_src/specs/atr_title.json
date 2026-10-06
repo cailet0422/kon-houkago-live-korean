@@ -1,0 +1,47 @@
+{
+ "src": "assets_ko/sprite/atr_title.png",
+ "out": "assets_ko/sprite/atr_title.png",
+ "defaults": {
+  "auto": false,
+  "font": "round",
+  "fill": "#ffffff",
+  "outline": [
+   [
+    "#202020",
+    1
+   ]
+  ],
+  "pad": 0,
+  "size": 12
+ },
+ "items": [
+  {
+   "box": [
+    364,
+    292,
+    428,
+    308
+   ],
+   "text": "처음부터"
+  },
+  {
+   "box": [
+    428,
+    292,
+    492,
+    308
+   ],
+   "text": "이어하기"
+  },
+  {
+   "box": [
+    366,
+    307,
+    438,
+    323
+   ],
+   "text": "인스톨",
+   "no_rect_clip": true
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+[
+ {
+  "name": "logo_fix",
+  "src": "work/logo/logo_ko_3x_v1.png",
+  "out": "work/logo/logo_ko_3x_v2.png",
+  "texts": [
+   [
+    "케이온!",
+    "케이온!"
+   ],
+   [
+    "방과후 라이브!!",
+    "방과후 라이브!!"
+   ]
+  ],
+  "style": "This is already the Korean logo; only fix legibility. Problem: the first syllable '케' reads like 'ㅋ' followed by two separate vertical bars, so the word looks like '케ㅣ이온'. Redraw '케' so its vowel 'ㅔ' is unmistakable: a clearly visible short horizontal stroke from the left vertical of ㅔ toward ㅋ, the two verticals of ㅔ close together, and a clearly larger gap between '케' and '이'. Keep the same chunky red letters, cream outline, drop shadow, the 'K-ON!' mark and the guitar inside '온'. Second line: put a clearly visible space between '방과후' and '라이브!!' (move them apart, about one letter width), keep colours green/orange and the music staff decoration. Keep the small white menu text on the right side unchanged.",
+  "bg": "#0000ff",
+  "merge": {
+   "whole": true
+  }
+ }
+]
