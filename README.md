@@ -11,6 +11,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-PSP%20%7C%20PS%20Vita%20%7C%20PPSSPP-ff69b4?style=flat-square)
 
+**🌸 Download page: https://cailet0422.github.io/kon-houkago-live-korean/**
+
 <img src="docs/images/loading.png" width="45%"> <img src="docs/images/clubroom.png" width="45%">
 
 </div>

@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>케이온! 방과후 라이브!! 한국어 패치</title>
+<meta name="description" content="K-On! Houkago Live!! (PSP, ULJM05709) Korean translation patch — 케이온! 방과후 라이브!! 한국어 패치 다운로드">
+<meta property="og:title" content="케이온! 방과후 라이브!! 한국어 패치">
+<meta property="og:description" content="K-On! Houkago Live!! (PSP) Korean translation patch · Windows / Android / xdelta">
+<meta property="og:image" content="https://cailet0422.github.io/kon-houkago-live-korean/images/clubroom.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#ff7eb0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff7eb0'/%3E%3Cpath d='M26 44a6 6 0 1 1-4-5.6V16l20-4v24a6 6 0 1 1-4-5.6V19l-12 2.4z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Jua&family=Gaegu:wght@700&family=Nunito:wght@500;700;800&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#ff7eb0; --pink-deep:#e8487f; --pink-soft:#ffe1ec; --pink-dot:#ffd3e4;
+  --cream:#fffaf2; --paper:#ffffff; --ink:#4b2a3a; --ink-soft:#7d5b6b;
+  --sky:#7cc4ff; --sky-deep:#3d97e0; --mint:#6fd3b8; --mint-deep:#2fae8c;
+  --lemon:#ffd95a; --lemon-deep:#e6b400; --lav:#b79cff; --lav-deep:#8a66f0; --cherry:#ff6464;
+  --tape:#ffe9a8;
+  --head:'Fredoka','Jua',system-ui,sans-serif;
+  --hand:'Gaegu','Jua',cursive;
+  --body:'Nunito','Gowun Dodum','Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif;
+  --r:22px;
+  color-scheme: light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; font-family:var(--body); color:var(--ink); line-height:1.65;
+  background-color:var(--cream);
+  background-image:radial-gradient(var(--pink-dot) 10px, transparent 11px);
+  background-size:64px 64px; background-position:0 0;
+  -webkit-font-smoothing:antialiased; overflow-x:hidden;
+}
+html[lang=ko] body{word-break:keep-all}
+/* Gaegu's Hangul is very spaced out: use Jua for Korean handwriting, keep Gaegu for Latin labels */
+html[lang=ko]{--hand:'Jua',cursive}
+.label h3{font-family:'Gaegu',cursive !important}
+code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.9em;background:rgba(255,225,236,.7);border:1.5px solid rgba(75,42,58,.2);border-radius:6px;padding:1px 6px;word-break:normal;overflow-wrap:anywhere}
+.lead,.sec-sub,.one-note{background:rgba(255,250,242,.88);border-radius:14px;box-shadow:0 0 0 8px rgba(255,250,242,.88)}
+.one-note{width:fit-content;margin-left:auto;margin-right:auto}
+html[lang=ko] .en, html[lang=en] .ko{display:none !important}
+a{color:var(--pink-deep)}
+img{max-width:100%;display:block}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+
+/* ---------- top bar ---------- */
+.topbar{position:sticky;top:0;z-index:20;background:rgba(255,250,242,.9);backdrop-filter:blur(8px);border-bottom:3px dashed var(--pink-dot)}
+.topbar .wrap{display:flex;align-items:center;gap:14px;height:60px}
+.brand{font-family:var(--head);font-weight:700;font-size:20px;text-decoration:none;color:var(--ink);display:flex;align-items:center;gap:8px;white-space:nowrap}
+.brand i{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--pink);color:#fff;font-style:normal;font-size:17px;box-shadow:0 3px 0 var(--pink-deep)}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{font-family:var(--head);font-weight:600;text-decoration:none;color:var(--ink-soft);padding:6px 12px;border-radius:999px}
+.nav a:hover{background:var(--pink-soft);color:var(--pink-deep)}
+.lang{display:flex;background:#fff;border:3px solid var(--ink);border-radius:999px;padding:3px;box-shadow:0 3px 0 var(--ink)}
+.lang button{all:unset;cursor:pointer;font-family:var(--head);font-weight:700;font-size:14px;padding:4px 12px;border-radius:999px;color:var(--ink-soft)}
+.lang button[aria-pressed=true]{background:var(--pink);color:#fff}
+.lang button:focus-visible{outline:3px solid var(--sky)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:56px 0 80px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center}
+.sticker{display:inline-block;font-family:var(--hand);font-size:22px;background:var(--lemon);padding:2px 16px 4px;border-radius:6px;transform:rotate(-3deg);box-shadow:0 3px 0 var(--lemon-deep);margin-bottom:18px}
+.logo{margin:0 0 6px;font-family:'Jua',var(--head);font-weight:400;line-height:1.05;font-size:clamp(54px,9vw,104px);letter-spacing:-1px}
+.logo span{display:inline-block;color:var(--c);text-shadow:4px 0 0 #fff,-4px 0 0 #fff,0 4px 0 #fff,0 -4px 0 #fff,3px 3px 0 #fff,-3px 3px 0 #fff,3px -3px 0 #fff,-3px -3px 0 #fff,0 9px 0 var(--ink);transform:rotate(var(--rot)) translateY(var(--y,0));animation:bob 3.2s ease-in-out infinite;animation-delay:var(--d)}
+.logo-sub{font-family:'Jua',var(--head);font-size:clamp(26px,4vw,40px);margin:0 0 4px;color:var(--ink)}
+.logo-sub b{color:var(--pink-deep);font-weight:400}
+.en-title{font-family:var(--head);font-weight:600;color:var(--ink-soft);margin:0 0 22px;font-size:17px}
+.lead{font-size:18px;margin:0 0 26px;max-width:34em}
+.cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--head);font-weight:700;font-size:18px;text-decoration:none;border:3px solid var(--ink);border-radius:999px;padding:12px 26px;background:var(--pink);color:#fff;box-shadow:0 5px 0 var(--ink);transition:transform .12s, box-shadow .12s;cursor:pointer}
+.btn:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--ink)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 var(--ink)}
+.btn.ghost{background:#fff;color:var(--ink)}
+.btn svg{width:22px;height:22px;flex:none}
+.meta{margin-top:18px;font-size:14px;color:var(--ink-soft);display:flex;gap:16px;flex-wrap:wrap}
+.meta b{color:var(--ink)}
+
+
+/* PSP */
+.psp-zone{position:relative;display:grid;place-items:center}
+.psp{position:relative;width:100%;max-width:520px;aspect-ratio:2.05/1;background:linear-gradient(180deg,#ffffff 0%,#f1eef3 100%);border:4px solid var(--ink);border-radius:120px/110px;box-shadow:0 10px 0 var(--ink),0 22px 40px rgba(75,42,58,.18);padding:6.5% 22%;transform:rotate(-4deg)}
+.psp .screen{position:relative;width:100%;height:100%;background:#111;border:3px solid var(--ink);border-radius:6px;overflow:hidden}
+.psp .screen img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s}
+.psp .screen img.on{opacity:1}
+.psp .dpad{position:absolute;left:7%;top:50%;width:10.5%;aspect-ratio:1;transform:translateY(-50%)}
+.psp .dpad::before,.psp .dpad::after{content:"";position:absolute;background:#d9d3dc;border:3px solid var(--ink);border-radius:5px}
+.psp .dpad::before{left:33%;top:0;width:34%;height:100%}
+.psp .dpad::after{top:33%;left:0;height:34%;width:100%}
+.psp .face{position:absolute;right:6%;top:50%;width:12%;aspect-ratio:1;transform:translateY(-50%)}
+.psp .face i{position:absolute;width:38%;aspect-ratio:1;border-radius:50%;background:#fff;border:3px solid var(--ink);display:grid;place-items:center;font-style:normal;font-size:10px;font-weight:800}
+.psp .face i:nth-child(1){left:31%;top:0;color:var(--mint-deep)}
+.psp .face i:nth-child(2){right:0;top:31%;color:var(--cherry)}
+.psp .face i:nth-child(3){left:31%;bottom:0;color:var(--sky-deep)}
+.psp .face i:nth-child(4){left:0;top:31%;color:var(--pink-deep)}
+.psp .sl{position:absolute;bottom:7%;left:50%;transform:translateX(-50%);display:flex;gap:8px}
+.psp .sl b{width:22px;height:7px;border-radius:9px;background:#d9d3dc;border:2px solid var(--ink)}
+.psp .shoulder{position:absolute;top:-4px;width:18%;height:10px;border:4px solid var(--ink);border-bottom:0;border-radius:40px 40px 0 0;background:#f1eef3}
+.psp .shoulder.l{left:11%;transform:translateY(-70%)}
+.psp .shoulder.r{right:11%;transform:translateY(-70%)}
+.dots-nav{display:flex;gap:8px;justify-content:center;margin-top:30px}
+.dots-nav button{all:unset;cursor:pointer;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid var(--ink)}
+.dots-nav button[aria-current=true]{background:var(--pink)}
+.dots-nav button:focus-visible{outline:3px solid var(--sky)}
+
+.note{position:absolute;color:var(--c);opacity:.85;animation:float 6s ease-in-out infinite;animation-delay:var(--d);pointer-events:none}
+.note svg{width:var(--s);height:var(--s);display:block}
+
+@keyframes bob{0%,100%{translate:0 0}50%{translate:0 -6px}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-16px) rotate(8deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ---------- sections ---------- */
+section{padding:64px 0}
+.sec-title{display:flex;align-items:center;gap:14px;margin:0 0 30px;font-family:var(--head);font-weight:700;font-size:clamp(28px,4vw,38px)}
+.sec-title .num{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--c,var(--pink));color:#fff;border:3px solid var(--ink);box-shadow:0 4px 0 var(--ink);font-size:24px;flex:none}
+.sec-sub{margin:-18px 0 30px;color:var(--ink-soft)}
+.panel{background:var(--paper);border:3px solid var(--ink);border-radius:var(--r);box-shadow:0 6px 0 var(--ink);padding:28px}
+
+/* staff-line divider */
+.staff{height:34px;background:repeating-linear-gradient(180deg,transparent 0 6px,var(--pink-dot) 6px 8px);opacity:.9;margin:0}
+
+/* ---------- cassette cards ---------- */
+.tapes{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.tape{position:relative;background:var(--c);border:3px solid var(--ink);border-radius:18px;box-shadow:0 7px 0 var(--ink);padding:16px 16px 20px;display:flex;flex-direction:column;transition:transform .15s}
+.tape:hover{transform:translateY(-4px) rotate(-1deg)}
+.tape .screws{position:absolute;inset:7px;pointer-events:none}
+.tape .screws i{position:absolute;width:9px;height:9px;border-radius:50%;background:#fff;border:2px solid var(--ink)}
+.tape .screws i:nth-child(1){left:0;top:0}.tape .screws i:nth-child(2){right:0;top:0}.tape .screws i:nth-child(3){left:0;bottom:0}.tape .screws i:nth-child(4){right:0;bottom:0}
+.label{background:#fff;border:3px solid var(--ink);border-radius:10px;padding:10px 14px 12px;background-image:repeating-linear-gradient(180deg,transparent 0 23px,#ffd3e3 23px 25px)}
+.label .side{float:right;font-family:var(--head);font-weight:700;font-size:13px;background:var(--ink);color:#fff;border-radius:6px;padding:0 7px}
+.label h3{margin:0;font-family:var(--hand);font-size:30px;line-height:1.1}
+.label p{margin:2px 0 0;font-size:14px;color:var(--ink-soft)}
+.window{margin:14px auto 0;width:80%;height:56px;background:#3a2731;border:3px solid var(--ink);border-radius:30px;display:flex;align-items:center;justify-content:space-between;padding:0 10px}
+.reel{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle,#fff 0 6px,transparent 7px),repeating-conic-gradient(#fff 0 20deg,#e9e0e5 20deg 60deg);border:3px solid #fff}
+.tape:hover .reel{animation:spin 1.2s linear infinite}
+.window .strip{flex:1;height:18px;margin:0 6px;background:linear-gradient(90deg,#7a4a5e,#a26b80);border-radius:4px}
+.tape .info{margin:16px 2px 14px;font-size:15px;flex:1}
+.tape .info ul{margin:6px 0 0;padding-left:20px}
+.tape .size{font-family:var(--head);font-weight:600;font-size:14px;background:rgba(255,255,255,.6);border:2px solid var(--ink);border-radius:999px;padding:1px 10px;display:inline-block}
+.tape .btn{justify-content:center;width:100%;font-size:17px;padding:11px 18px}
+.tape.t1{--c:#ffc4da}.tape.t1 .btn{background:var(--pink-deep)}
+.tape.t2{--c:#c4e9dc}.tape.t2 .btn{background:var(--mint-deep)}
+.tape.t3{--c:#cfe6ff}.tape.t3 .btn{background:var(--sky-deep)}
+.one-note{margin-top:22px;text-align:center;font-family:var(--hand);font-size:23px}
+
+/* ---------- steps ---------- */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:34px}
+.step{position:relative;padding:26px 22px 22px}
+.step .pin{position:absolute;top:-14px;left:50%;width:90px;height:26px;transform:translateX(-50%) rotate(-2deg);background:var(--tape);opacity:.9;border-left:2px dashed rgba(0,0,0,.08);border-right:2px dashed rgba(0,0,0,.08)}
+.step h3{font-family:var(--head);font-weight:700;margin:4px 0 8px;font-size:21px;display:flex;align-items:center;gap:10px}
+.step h3 em{font-style:normal;font-family:var(--hand);font-size:30px;color:var(--pink-deep)}
+.step p{margin:0;font-size:15.5px}
+
+/* platform tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:-3px;position:relative;z-index:1}
+.tabs button{all:unset;cursor:pointer;font-family:var(--head);font-weight:700;font-size:15px;padding:10px 18px 12px;border:3px solid var(--ink);border-radius:16px 16px 0 0;background:#fff;color:var(--ink-soft)}
+.tabs button[aria-selected=true]{background:var(--c);color:var(--ink);border-bottom-color:var(--c)}
+.tabs button:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.tabpanel{border-radius:0 var(--r) var(--r) var(--r);background:var(--c)}
+.tabpanel[hidden]{display:none}
+.tabpanel ol{margin:0;padding-left:24px}
+.tabpanel li{margin:6px 0}
+.tabpanel code,.hash code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.92em;background:rgba(255,255,255,.75);border:1.5px solid rgba(75,42,58,.25);border-radius:6px;padding:1px 6px;word-break:break-all}
+.tabpanel .more{display:inline-block;margin-top:14px;font-family:var(--head);font-weight:700}
+.tp-psp{--c:#ffe1ec}.tp-vita{--c:#e8e0ff}.tp-pc{--c:#dff1ff}.tp-and{--c:#dcf5ec}.tp-ios{--c:#fff1c7}.tp-deck{--c:#ffe4d6}
+
+/* warning sticky */
+.memo{position:relative;background:var(--lemon);border:3px solid var(--ink);border-radius:6px;box-shadow:0 6px 0 var(--ink);padding:26px 28px 24px;transform:rotate(-1deg);max-width:820px;margin:44px auto 0}
+.memo::before{content:"";position:absolute;top:-16px;left:50%;width:110px;height:28px;background:rgba(255,126,176,.55);transform:translateX(-50%) rotate(3deg)}
+.memo h3{margin:0 0 6px;font-family:var(--hand);font-size:32px;line-height:1.1}
+.memo p{margin:0}
+
+/* hashes */
+.hash{display:grid;grid-template-columns:auto 1fr auto;gap:10px 16px;align-items:center}
+.hash dt{font-family:var(--head);font-weight:700}
+.hash dd{margin:0;min-width:0}
+.copy{all:unset;cursor:pointer;font-family:var(--head);font-weight:700;font-size:13px;border:2px solid var(--ink);border-radius:999px;padding:3px 12px;background:#fff;box-shadow:0 3px 0 var(--ink)}
+.copy:active{transform:translateY(2px);box-shadow:0 1px 0 var(--ink)}
+.copy.ok{background:var(--mint);}
+.hash-note{margin:18px 0 0;font-size:14.5px;color:var(--ink-soft)}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.polaroid{margin:0;background:#fff;border:3px solid var(--ink);border-radius:8px;padding:10px 10px 6px;box-shadow:0 6px 0 var(--ink);transform:rotate(var(--rot));transition:transform .2s}
+.polaroid:hover{transform:rotate(0) scale(1.03);z-index:2;position:relative}
+.polaroid img{border:2px solid var(--ink);border-radius:3px;aspect-ratio:480/272;object-fit:cover;width:100%}
+.polaroid figcaption{font-family:var(--hand);font-size:22px;text-align:center;margin-top:4px}
+
+/* translated list */
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0;list-style:none}
+.chips li{background:#fff;border:2.5px solid var(--ink);border-radius:999px;padding:5px 14px;font-weight:700;font-size:15px}
+.chips li:nth-child(5n+1){background:#ffe1ec}.chips li:nth-child(5n+2){background:#dff1ff}.chips li:nth-child(5n+3){background:#fff1c7}.chips li:nth-child(5n+4){background:#e8e0ff}.chips li:nth-child(5n){background:#dcf5ec}
+.two{display:grid;grid-template-columns:1.4fr 1fr;gap:26px}
+.two h3{font-family:var(--head);margin:0 0 14px;font-size:21px}
+.two .kept{font-size:15px;margin:0;padding-left:20px}
+
+/* footer */
+footer{background:var(--ink);color:#f7e9ef;padding:40px 0 46px;margin-top:40px;border-top:6px solid var(--pink)}
+footer a{color:#ffc2d9}
+footer .wrap{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:flex-start}
+footer p{margin:0 0 6px;font-size:14px;max-width:640px}
+footer .tea{font-family:var(--hand);font-size:24px;color:#fff;margin-bottom:8px}
+
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr}
+  .psp-zone{margin-top:20px}
+  .tapes,.steps,.gallery{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr}
+  .nav{display:none}
+  .lang{margin-left:auto}
+}
+@media (max-width:520px){
+  .wrap{padding:0 16px}
+  .panel{padding:20px}
+  .hash{grid-template-columns:1fr auto}
+  .hash dt{grid-column:1 / -1;margin-bottom:-6px}
+  .brand .t{display:none}
+  .psp{border-radius:80px/70px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top"><i aria-hidden="true">♪</i><span class="t"><span class="ko">케이온! 한국어 패치</span><span class="en">K-On! Korean Patch</span></span></a>
+    <nav class="nav" aria-label="sections">
+      <a href="#download"><span class="ko">다운로드</span><span class="en">Download</span></a>
+      <a href="#howto"><span class="ko">설치 방법</span><span class="en">How to</span></a>
+      <a href="#screens"><span class="ko">스크린샷</span><span class="en">Screens</span></a>
+      <a href="https://github.com/cailet0422/kon-houkago-live-korean">GitHub</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ko" aria-pressed="true">한국어</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="note" style="--c:var(--pink);--s:46px;--d:0s;left:3%;top:30px" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M9 18a3 3 0 1 1-2-2.83V5l12-2v12a3 3 0 1 1-2-2.83V6.3L9 7.6z"/></svg></div>
+  <div class="note" style="--c:var(--sky);--s:34px;--d:1.4s;left:46%;top:14px" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 3v10.6A4 4 0 1 0 14 17V7h4V3z"/></svg></div>
+  <div class="note" style="--c:var(--lemon-deep);--s:30px;--d:.7s;right:4%;top:40px" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 2 2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z"/></svg></div>
+  <div class="note" style="--c:var(--lav);--s:38px;--d:2.1s;left:40%;bottom:20px" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M9 18a3 3 0 1 1-2-2.83V5l12-2v12a3 3 0 1 1-2-2.83V6.3L9 7.6z"/></svg></div>
+  <div class="note" style="--c:var(--mint);--s:28px;--d:3s;right:8%;bottom:30px" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 2 2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z"/></svg></div>
+
+  <div class="wrap">
+    <div>
+      <div class="sticker"><span class="ko">PSP 일본판 · ULJM05709</span><span class="en">Japanese PSP · ULJM05709</span></div>
+      <div class="logo-wrap">
+        <h1 class="logo" aria-label="케이온!">
+          <span style="--c:var(--cherry);--rot:-6deg;--d:0s">케</span><span style="--c:var(--sky-deep);--rot:4deg;--d:.15s;--y:4px">이</span><span style="--c:var(--lemon-deep);--rot:-3deg;--d:.3s">온</span><span style="--c:var(--mint-deep);--rot:8deg;--d:.45s">!</span>
+        </h1>
+      </div>
+      <p class="logo-sub"><span class="ko">방과후 라이브!! <b>한국어 패치</b></span><span class="en">Houkago Live!! <b>Korean Patch</b></span></p>
+      <p class="en-title"><span class="ko">K-On! Houkago Live!! Korean Translation</span><span class="en">けいおん! 放課後ライブ!! · 케이온! 방과후 라이브!!</span></p>
+      <p class="lead">
+        <span class="ko">메뉴, 부실 대화, 튜토리얼, 타이틀 로고까지 — 방과후 티타임과 함께하는 PSP 리듬 게임을 한국어로 즐겨 보세요.</span>
+        <span class="en">Menus, club-room conversations, tutorials, even the title logo — play the PSP rhythm game with Ho-kago Tea Time, fully in Korean.</span>
+      </p>
+      <div class="cta">
+        <a class="btn" href="#download"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg><span class="ko">다운로드</span><span class="en">Download</span></a>
+        <a class="btn ghost" href="#howto"><span class="ko">설치 방법 보기</span><span class="en">How to install</span></a>
+      </div>
+      <div class="meta">
+        <span><span class="ko">버전</span><span class="en">Version</span> <b id="ver">v1.0.0</b></span>
+        <span><span class="ko">공개일</span><span class="en">Released</span> <b id="date">2026-10-06</b></span>
+        <span><span class="ko">라이선스</span><span class="en">License</span> <b>MIT</b></span>
+      </div>
+    </div>
+
+    <div class="psp-zone">
+      <div class="psp" aria-label="Screenshots">
+        <div class="dpad" aria-hidden="true"></div>
+        <div class="screen" id="screen">
+          <img class="on" src="images/loading.png" alt="Loading screen with the Korean K-On! logo">
+          <img src="images/clubroom.png" alt="Club room menu in Korean" loading="lazy">
+          <img src="images/dialogue.png" alt="Korean dialogue" loading="lazy">
+          <img src="images/song_select.png" alt="Song select" loading="lazy">
+          <img src="images/play_info.png" alt="Play information" loading="lazy">
+        </div>
+        <div class="face" aria-hidden="true"><i>△</i><i>○</i><i>✕</i><i>□</i></div>
+        <div class="sl" aria-hidden="true"><b></b><b></b></div>
+      </div>
+      <div class="dots-nav" id="dots" role="group" aria-label="Screenshot selector"></div>
+    </div>
+  </div>
+</section>
+
+<div class="staff" aria-hidden="true"></div>
+
+<!-- ================= DOWNLOAD ================= -->
+<section id="download">
+  <div class="wrap">
+    <h2 class="sec-title"><span class="num" style="--c:var(--pink)">♪</span><span class="ko">다운로드</span><span class="en">Download</span></h2>
+    <p class="sec-sub"><span class="ko">쓰는 기기에 맞는 파일 <b>하나만</b> 받으면 됩니다. 세 파일 모두 똑같은 한국어판 ISO를 만듭니다.</span><span class="en">Pick <b>one</b> file for your device. All three produce exactly the same Korean ISO.</span></p>
+
+    <div class="tapes">
+      <article class="tape t1">
+        <div class="screws" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <div class="label"><span class="side">SIDE A</span><h3>Windows</h3><p>KonKoPatcher.exe</p></div>
+        <div class="window" aria-hidden="true"><span class="reel"></span><span class="strip"></span><span class="reel"></span></div>
+        <div class="info">
+          <span class="size" data-asset="KonKoPatcher.exe">233 MB</span>
+          <ul>
+            <li><span class="ko">ISO를 끌어다 놓고 [패치]만 누르면 끝</span><span class="en">Drag in the ISO and click Patch</span></li>
+            <li><span class="ko">원본·결과 자동 검증</span><span class="en">Verifies input and output</span></li>
+            <li>Windows 7+ · .NET Framework 4</li>
+          </ul>
+        </div>
+        <a class="btn" href="https://github.com/cailet0422/kon-houkago-live-korean/releases/latest/download/KonKoPatcher.exe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>.exe</a>
+      </article>
+
+      <article class="tape t2">
+        <div class="screws" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <div class="label"><span class="side">SIDE B</span><h3>Android</h3><p>KonKoPatcher.apk</p></div>
+        <div class="window" aria-hidden="true"><span class="reel"></span><span class="strip"></span><span class="reel"></span></div>
+        <div class="info">
+          <span class="size" data-asset="KonKoPatcher.apk">233 MB</span>
+          <ul>
+            <li><span class="ko">PC 없이 휴대폰에서 바로 패치</span><span class="en">Patch right on your phone</span></li>
+            <li><span class="ko">결과는 PPSSPP에서 바로 실행</span><span class="en">Play the result in PPSSPP</span></li>
+            <li>Android 5.0+</li>
+          </ul>
+        </div>
+        <a class="btn" href="https://github.com/cailet0422/kon-houkago-live-korean/releases/latest/download/KonKoPatcher.apk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>.apk</a>
+      </article>
+
+      <article class="tape t3">
+        <div class="screws" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <div class="label"><span class="side">BONUS</span><h3>xdelta</h3><p>kon_houkago_live_ko.xdelta</p></div>
+        <div class="window" aria-hidden="true"><span class="reel"></span><span class="strip"></span><span class="reel"></span></div>
+        <div class="info">
+          <span class="size" data-asset="kon_houkago_live_ko.xdelta">142 MB</span>
+          <ul>
+            <li>macOS · Linux · <span class="ko">기타 모든 OS</span><span class="en">any OS</span></li>
+            <li><span class="ko">xdelta3 / Delta Patcher 등으로 적용</span><span class="en">Apply with xdelta3 / Delta Patcher</span></li>
+          </ul>
+        </div>
+        <a class="btn" href="https://github.com/cailet0422/kon-houkago-live-korean/releases/latest/download/kon_houkago_live_ko.xdelta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>.xdelta</a>
+      </article>
+    </div>
+    <p class="one-note">
+      <span class="ko">게임 본편은 들어 있지 않아요! 직접 가진 일본판 UMD의 ISO가 필요합니다 ☕</span>
+      <span class="en">The game itself is not included — you need an ISO of your own Japanese UMD ☕</span>
+    </p>
+  </div>
+</section>
+
+<div class="staff" aria-hidden="true"></div>
+
+<!-- ================= HOW TO ================= -->
+<section id="howto">
+  <div class="wrap">
+    <h2 class="sec-title"><span class="num" style="--c:var(--sky-deep)">♫</span><span class="ko">설치 방법</span><span class="en">How to install</span></h2>
+
+    <div class="steps">
+      <div class="panel step"><span class="pin" aria-hidden="true"></span>
+        <h3><em>1</em><span class="ko">원본 ISO 준비</span><span class="en">Get the original ISO</span></h3>
+        <p><span class="ko">일본판 <code>K-On! Houkago Live!! (Japan).iso</code>. CSO라면 먼저 ISO로 풀어 주세요. 해시는 <a href="#hash">아래</a>에서 확인.</span><span class="en">Japanese <code>K-On! Houkago Live!! (Japan).iso</code>. Decompress CSO back to ISO first. Hashes are <a href="#hash">below</a>.</span></p>
+      </div>
+      <div class="panel step"><span class="pin" aria-hidden="true"></span>
+        <h3><em>2</em><span class="ko">패치 적용</span><span class="en">Apply the patch</span></h3>
+        <p><span class="ko">패처에서 원본 ISO를 고르고 [패치]. 원본 확인 → 패치 → 검증이 자동으로 진행되고 <code>K-On_Houkago_Live_KO.iso</code>가 만들어집니다. (여유 공간 약 1.8GB)</span><span class="en">Choose the ISO in the patcher and press Patch. It verifies, patches and checks the result, creating <code>K-On_Houkago_Live_KO.iso</code> (≈1.8 GB free space needed).</span></p>
+      </div>
+      <div class="panel step"><span class="pin" aria-hidden="true"></span>
+        <h3><em>3</em><span class="ko">실행!</span><span class="en">Play!</span></h3>
+        <p><span class="ko">PSP, 비타, PPSSPP 어디서든. 아래에서 기종을 골라 보세요. 일본판 세이브도 그대로 이어서 쓸 수 있어요.</span><span class="en">On PSP, Vita or PPSSPP — choose your platform below. Your Japanese save data keeps working.</span></p>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Platform">
+      <button role="tab" id="tab-psp" aria-controls="p-psp" aria-selected="true" style="--c:#ffe1ec">PSP</button>
+      <button role="tab" id="tab-vita" aria-controls="p-vita" aria-selected="false" tabindex="-1" style="--c:#e8e0ff">PS Vita</button>
+      <button role="tab" id="tab-pc" aria-controls="p-pc" aria-selected="false" tabindex="-1" style="--c:#dff1ff">PPSSPP PC</button>
+      <button role="tab" id="tab-and" aria-controls="p-and" aria-selected="false" tabindex="-1" style="--c:#dcf5ec">Android</button>
+      <button role="tab" id="tab-ios" aria-controls="p-ios" aria-selected="false" tabindex="-1" style="--c:#fff1c7">iPhone · iPad</button>
+      <button role="tab" id="tab-deck" aria-controls="p-deck" aria-selected="false" tabindex="-1" style="--c:#ffe4d6">Steam Deck</button>
+    </div>
+
+    <div class="panel tabpanel tp-psp" role="tabpanel" id="p-psp" aria-labelledby="tab-psp">
+      <ol class="ko">
+        <li>커스텀 펌웨어(CFW)가 설치된 PSP가 필요합니다 (예: 6.60/6.61 + ARK-4, PRO-C, LME). PSP-1000/2000/3000/E1000/Go 모두 가능.</li>
+        <li>USB 연결 또는 카드 리더기로 패치된 ISO를 <code>ms0:/ISO/</code>에 복사합니다. PSP Go 내장 메모리는 <code>ef0:/ISO/</code>. (2GB 이상 메모리 스틱)</li>
+        <li>XMB의 <b>게임 → 메모리 스틱</b>에서 <b>케이온! 방과후 라이브!!</b> 실행.</li>
+        <li>실행되지 않으면 VSH 메뉴(SELECT)에서 ISO 드라이버(Inferno ↔ NP9660)를 바꿔 보세요.</li>
+      </ol>
+      <ol class="en">
+        <li>You need a PSP with custom firmware (e.g. 6.60/6.61 + ARK-4, PRO-C or LME). Works on PSP-1000/2000/3000/E1000/Go.</li>
+        <li>Copy the patched ISO to <code>ms0:/ISO/</code> via USB or a card reader. PSP Go internal storage: <code>ef0:/ISO/</code>. (Memory Stick ≥ 2 GB)</li>
+        <li>Start <b>케이온! 방과후 라이브!!</b> from <b>Game → Memory Stick</b> in the XMB.</li>
+        <li>If it won't boot, switch the ISO driver (Inferno ↔ NP9660) in the VSH menu (SELECT).</li>
+      </ol>
+      <a class="more ko" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.ko.md#psp-실기">자세한 설명 →</a>
+      <a class="more en" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.md#psp-real-hardware">Full guide →</a>
+    </div>
+
+    <div class="panel tabpanel tp-vita" role="tabpanel" id="p-vita" aria-labelledby="tab-vita" hidden>
+      <ol class="ko">
+        <li>Adrenaline이 설치된 PS Vita / PS TV가 필요합니다.</li>
+        <li>VitaShell(USB/FTP)로 ISO를 <code>ux0:pspemu/ISO/</code>에 복사합니다.</li>
+        <li>Adrenaline 실행 → PSP XMB의 <b>게임 → 메모리 스틱</b>에서 실행.</li>
+      </ol>
+      <ol class="en">
+        <li>Requires a PS Vita / PS TV with Adrenaline.</li>
+        <li>Copy the ISO to <code>ux0:pspemu/ISO/</code> with VitaShell (USB/FTP).</li>
+        <li>Launch Adrenaline → <b>Game → Memory Stick</b> in the PSP XMB.</li>
+      </ol>
+      <a class="more ko" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.ko.md#ps-vita--ps-tv-adrenaline">자세한 설명 →</a>
+      <a class="more en" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.md#ps-vita--ps-tv-adrenaline">Full guide →</a>
+    </div>
+
+    <div class="panel tabpanel tp-pc" role="tabpanel" id="p-pc" aria-labelledby="tab-pc" hidden>
+      <ol class="ko">
+        <li><a href="https://www.ppsspp.org/download/">ppsspp.org</a>에서 PPSSPP 설치 (Windows · macOS · Linux, v1.20에서 확인).</li>
+        <li><b>불러오기</b>로 <code>K-On_Houkago_Live_KO.iso</code> 선택.</li>
+        <li>렌더링 해상도를 2배 이상으로 올리면 한글이 더 선명해요. 텍스처 업스케일링(xBRZ)은 끄는 것을 권장.</li>
+        <li>패치 전에 만든 상태 저장(세이브 스테이트)에는 일본어 텍스처가 남아 있으니 게임 내 세이브로 이어 하세요.</li>
+      </ol>
+      <ol class="en">
+        <li>Install PPSSPP from <a href="https://www.ppsspp.org/download/">ppsspp.org</a> (Windows · macOS · Linux, tested with v1.20).</li>
+        <li>Click <b>Load…</b> and pick <code>K-On_Houkago_Live_KO.iso</code>.</li>
+        <li>2× or higher rendering resolution makes Korean text sharper. Keep texture upscaling (xBRZ) off.</li>
+        <li>Save states made before patching keep Japanese textures — continue from your in-game save instead.</li>
+      </ol>
+      <a class="more ko" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.ko.md#ppsspp-windows--macos--리눅스">자세한 설명 →</a>
+      <a class="more en" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.md#ppsspp-on-windows--macos--linux">Full guide →</a>
+    </div>
+
+    <div class="panel tabpanel tp-and" role="tabpanel" id="p-and" aria-labelledby="tab-and" hidden>
+      <ol class="ko">
+        <li><b>KonKoPatcher.apk</b> 설치 (출처를 알 수 없는 앱 허용) → [원본 ISO 선택] → [패치] → 저장 위치 지정. 1~5분, 진행 중 앱을 닫지 마세요.</li>
+        <li>Google Play에서 <b>PPSSPP</b> 설치.</li>
+        <li>PPSSPP의 <b>게임</b> 탭에서 저장한 폴더(예: <code>Download</code>)로 이동해 실행.</li>
+      </ol>
+      <ol class="en">
+        <li>Install <b>KonKoPatcher.apk</b> (allow unknown apps) → Select original ISO → Patch → choose where to save. Takes 1–5 min; keep the app open.</li>
+        <li>Install <b>PPSSPP</b> from Google Play.</li>
+        <li>In PPSSPP's <b>Games</b> tab, browse to the saved folder (e.g. <code>Download</code>) and start the game.</li>
+      </ol>
+      <a class="more ko" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.ko.md#ppsspp-안드로이드">자세한 설명 →</a>
+      <a class="more en" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.md#ppsspp-on-android">Full guide →</a>
+    </div>
+
+    <div class="panel tabpanel tp-ios" role="tabpanel" id="p-ios" aria-labelledby="tab-ios" hidden>
+      <ol class="ko">
+        <li>App Store에서 <b>PPSSPP</b> 설치.</li>
+        <li>iOS용 패처는 없어요. PC나 안드로이드에서 패치한 ISO를 AirDrop·파일 공유·클라우드로 <b>파일 → 나의 iPhone → PPSSPP</b>에 옮깁니다.</li>
+        <li>PPSSPP에서 그 폴더로 이동해 실행.</li>
+      </ol>
+      <ol class="en">
+        <li>Install <b>PPSSPP</b> from the App Store.</li>
+        <li>There is no iOS patcher — patch on a PC or Android, then move the ISO to <b>Files → On My iPhone → PPSSPP</b> (AirDrop, file sharing or cloud).</li>
+        <li>Browse to that folder in PPSSPP and start the game.</li>
+      </ol>
+      <a class="more ko" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.ko.md#ppsspp-아이폰--아이패드">자세한 설명 →</a>
+      <a class="more en" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.md#ppsspp-on-iphone--ipad">Full guide →</a>
+    </div>
+
+    <div class="panel tabpanel tp-deck" role="tabpanel" id="p-deck" aria-labelledby="tab-deck" hidden>
+      <ol class="ko">
+        <li>데스크톱 모드 → Discover에서 <b>PPSSPP</b> 설치 (또는 EmuDeck).</li>
+        <li>다른 PC에서 패치한 ISO를 복사합니다. EmuDeck이라면 <code>Emulation/roms/psp/</code>.</li>
+        <li>PPSSPP 또는 Steam ROM Manager로 실행.</li>
+      </ol>
+      <ol class="en">
+        <li>Desktop Mode → Discover → install <b>PPSSPP</b> (or use EmuDeck).</li>
+        <li>Copy the ISO patched on another PC. With EmuDeck: <code>Emulation/roms/psp/</code>.</li>
+        <li>Launch with PPSSPP or Steam ROM Manager.</li>
+      </ol>
+      <a class="more ko" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.ko.md#스팀덱">자세한 설명 →</a>
+      <a class="more en" href="https://github.com/cailet0422/kon-houkago-live-korean/blob/main/README.md#steam-deck">Full guide →</a>
+    </div>
+
+    <div class="memo" role="note">
+      <h3><span class="ko">잠깐! 「인스톨」은 꼭 OFF!</span><span class="en">Wait! Keep “Install” OFF!</span></h3>
+      <p><span class="ko">게임 내 <b>설정!</b> 메뉴의 <b>인스톨</b>을 켜면 게임이 정상 동작하지 않아요. ISO 크기를 원본과 맞추느라 인스톨 데이터를 비워 뒀거든요. 기본값이 OFF이니 그대로 두면 됩니다.</span><span class="en">Turning on <b>Install</b> in the in-game <b>설정!</b> (Settings) menu breaks the game — the install data had to be emptied to keep the ISO the same size. It is OFF by default, so just leave it.</span></p>
+    </div>
+  </div>
+</section>
+
+<div class="staff" aria-hidden="true"></div>
+
+<!-- ================= SCREENSHOTS ================= -->
+<section id="screens">
+  <div class="wrap">
+    <h2 class="sec-title"><span class="num" style="--c:var(--lemon-deep)">★</span><span class="ko">스크린샷</span><span class="en">Screenshots</span></h2>
+    <div class="gallery">
+      <figure class="polaroid" style="--rot:-2deg"><img src="images/clubroom.png" alt="" loading="lazy"><figcaption><span class="ko">부실 메뉴</span><span class="en">Club room</span></figcaption></figure>
+      <figure class="polaroid" style="--rot:1.5deg"><img src="images/dialogue.png" alt="" loading="lazy"><figcaption><span class="ko">부실 대화</span><span class="en">Conversation</span></figcaption></figure>
+      <figure class="polaroid" style="--rot:-1deg"><img src="images/tutorial.png" alt="" loading="lazy"><figcaption><span class="ko">튜토리얼</span><span class="en">Tutorial</span></figcaption></figure>
+      <figure class="polaroid" style="--rot:1deg"><img src="images/song_select.png" alt="" loading="lazy"><figcaption><span class="ko">곡 선택</span><span class="en">Song select</span></figcaption></figure>
+      <figure class="polaroid" style="--rot:-1.5deg"><img src="images/play_info.png" alt="" loading="lazy"><figcaption><span class="ko">플레이 정보</span><span class="en">Play info</span></figcaption></figure>
+      <figure class="polaroid" style="--rot:2deg"><img src="images/loading.png" alt="" loading="lazy"><figcaption><span class="ko">로딩 화면</span><span class="en">Loading</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<div class="staff" aria-hidden="true"></div>
+
+<!-- ================= WHAT'S TRANSLATED + HASH ================= -->
+<section id="info">
+  <div class="wrap">
+    <h2 class="sec-title"><span class="num" style="--c:var(--lav-deep)">♬</span><span class="ko">번역 내용 &amp; 원본 확인</span><span class="en">What's inside &amp; ISO check</span></h2>
+    <div class="two">
+      <div class="panel">
+        <h3><span class="ko">번역한 것</span><span class="en">Translated</span></h3>
+        <ul class="chips ko">
+          <li>메뉴·설명</li><li>아이템·의상</li><li>칭호</li><li>부실 이벤트 49편</li><li>튜토리얼 전체</li>
+          <li>타이틀 로고</li><li>곡 타이틀 카드</li><li>앨범 썸네일</li><li>스태프롤</li><li>부실 소품 텍스처</li><li>XMB 아이콘·제목</li>
+        </ul>
+        <ul class="chips en">
+          <li>Menus &amp; descriptions</li><li>Items &amp; costumes</li><li>Titles</li><li>49 club-room events</li><li>All tutorials</li>
+          <li>Title logo</li><li>Song title cards</li><li>Album thumbnails</li><li>Staff roll</li><li>Club-room props</li><li>XMB icon &amp; title</li>
+        </ul>
+        <h3 style="margin-top:22px"><span class="ko">일부러 남겨 둔 것</span><span class="en">Kept in Japanese on purpose</span></h3>
+        <ul class="kept ko"><li>노래 가사 (음원과 일치 · 저작권)</li><li>이름 입력 가나 키보드</li><li>스태프 실명, 저작권 표기</li></ul>
+        <ul class="kept en"><li>Song lyrics (match the vocals · copyright)</li><li>Kana keyboard on name entry</li><li>Staff real names, copyright line</li></ul>
+        <p style="margin:16px 0 0;font-size:14.5px;color:var(--ink-soft)"><span class="ko">용어는 국내에 알려진 번역을 따랐어요 — 응땅, 기-타, 릿쨩, 아즈냥, 방과후 티타임…</span><span class="en">Terms follow the established Korean K-On! translations — 응땅, 기-타, 릿쨩, 아즈냥, 방과후 티타임…</span></p>
+      </div>
+      <div class="panel" id="hash">
+        <h3><span class="ko">원본 ISO</span><span class="en">Original ISO</span></h3>
+        <dl class="hash">
+          <dt><span class="ko">크기</span><span class="en">Size</span></dt><dd><code>1,756,659,712</code></dd><dd></dd>
+          <dt>CRC32</dt><dd><code>2F89D4E5</code></dd><dd><button class="copy" data-copy="2F89D4E5">copy</button></dd>
+          <dt>SHA-1</dt><dd><code>7e0120b1557249a3678315d57b72c6fe4cbcfb92</code></dd><dd><button class="copy" data-copy="7e0120b1557249a3678315d57b72c6fe4cbcfb92">copy</button></dd>
+        </dl>
+        <h3 style="margin-top:22px"><span class="ko">패치 결과</span><span class="en">Patched ISO</span></h3>
+        <dl class="hash">
+          <dt>SHA-1</dt><dd><code>ffa313fb7a3f3567995ebf9e91ca63cb9100d2d6</code></dd><dd><button class="copy" data-copy="ffa313fb7a3f3567995ebf9e91ca63cb9100d2d6">copy</button></dd>
+        </dl>
+        <p class="hash-note"><span class="ko">Windows·안드로이드 패처는 자동으로 확인해요. 직접 확인하려면 <code>Get-FileHash -Algorithm SHA1</code> / <code>shasum -a 1</code> / <code>sha1sum</code>.</span><span class="en">The Windows/Android patchers check this for you. Manually: <code>Get-FileHash -Algorithm SHA1</code> / <code>shasum -a 1</code> / <code>sha1sum</code>.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="tea"><span class="ko">오늘도 방과후 티타임 ☕♪</span><span class="en">Tea time after school ☕♪</span></div>
+      <p><span class="ko">비공식 팬 번역입니다. 세가, 교토 애니메이션 등 <i>케이온!</i>의 권리자와 관계가 없으며, 게임 데이터는 배포하지 않습니다. 원본 게임을 소유해 주세요.</span><span class="en">Unofficial fan translation, not affiliated with Sega, Kyoto Animation or any rights holder of <i>K-On!</i>. No game data is distributed — please own the original game.</span></p>
+      <p><span class="ko">도구·패처·번역은 MIT 라이선스. 실기 테스트 결과나 오역 제보는 <a href="https://github.com/cailet0422/kon-houkago-live-korean/issues">Issues</a>로 알려 주세요!</span><span class="en">Tools, patchers and translation: MIT License. Real-hardware reports and typo fixes are welcome in <a href="https://github.com/cailet0422/kon-houkago-live-korean/issues">Issues</a>!</span></p>
+    </div>
+    <p><a href="https://github.com/cailet0422/kon-houkago-live-korean">github.com/cailet0422/kon-houkago-live-korean</a></p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // ---- language ----
+  var html=document.documentElement, btns=document.querySelectorAll('.lang button');
+  function setLang(l){
+    html.lang=l;
+    btns.forEach(function(b){b.setAttribute('aria-pressed', b.dataset.lang===l ? 'true':'false');});
+    document.title = l==='ko' ? '케이온! 방과후 라이브!! 한국어 패치' : 'K-On! Houkago Live!! Korean Patch';
+    try{localStorage.setItem('lang',l);}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('lang');}catch(e){}
+  var q=new URLSearchParams(location.search).get('lang');
+  setLang(q==='en'||q==='ko' ? q : saved || ((navigator.language||'').toLowerCase().indexOf('ko')===0 ? 'ko' : 'en'));
+  btns.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.lang);});});
+
+  // ---- PSP screenshot slideshow ----
+  var imgs=[].slice.call(document.querySelectorAll('#screen img')), dots=document.getElementById('dots'), cur=0, timer;
+  imgs.forEach(function(_,i){
+    var d=document.createElement('button'); d.type='button'; d.setAttribute('aria-label','Screenshot '+(i+1));
+    d.addEventListener('click',function(){show(i);restart();}); dots.appendChild(d);
+  });
+  function show(i){
+    imgs[cur].classList.remove('on'); dots.children[cur].removeAttribute('aria-current');
+    cur=i; imgs[cur].classList.add('on'); dots.children[cur].setAttribute('aria-current','true');
+  }
+  function restart(){clearInterval(timer); if(!matchMedia('(prefers-reduced-motion: reduce)').matches) timer=setInterval(function(){show((cur+1)%imgs.length);},3200);}
+  show(0); restart();
+
+  // ---- tabs ----
+  var tabs=[].slice.call(document.querySelectorAll('[role=tab]'));
+  function select(t){
+    tabs.forEach(function(x){
+      var on=x===t; x.setAttribute('aria-selected',on); x.tabIndex=on?0:-1;
+      document.getElementById(x.getAttribute('aria-controls')).hidden=!on;
+    });
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){select(t);});
+    t.addEventListener('keydown',function(e){
+      var n = e.key==='ArrowRight' ? (i+1)%tabs.length : e.key==='ArrowLeft' ? (i-1+tabs.length)%tabs.length : -1;
+      if(n>=0){e.preventDefault(); select(tabs[n]); tabs[n].focus();}
+    });
+  });
+  // auto-pick a tab from the visitor's device
+  var ua=navigator.userAgent;
+  if(/Android/i.test(ua)) select(document.getElementById('tab-and'));
+  else if(/iPhone|iPad|iPod/i.test(ua)) select(document.getElementById('tab-ios'));
+
+  // ---- copy buttons ----
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var done=function(){b.textContent='✓'; b.classList.add('ok'); setTimeout(function(){b.textContent='copy'; b.classList.remove('ok');},1400);};
+      if(navigator.clipboard) navigator.clipboard.writeText(b.dataset.copy).then(done,function(){});
+    });
+  });
+
+  // ---- live release info (falls back to the static values) ----
+  fetch('https://api.github.com/repos/cailet0422/kon-houkago-live-korean/releases/latest')
+    .then(function(r){return r.ok ? r.json() : null;})
+    .then(function(rel){
+      if(!rel) return;
+      document.getElementById('ver').textContent=rel.tag_name;
+      document.getElementById('date').textContent=(rel.published_at||'').slice(0,10);
+      (rel.assets||[]).forEach(function(a){
+        var el=document.querySelector('[data-asset="'+a.name+'"]');
+        if(el) el.textContent=Math.round(a.size/1e6)+' MB';
+      });
+    }).catch(function(){});
+})();
+</script>
+</body>
+</html>
